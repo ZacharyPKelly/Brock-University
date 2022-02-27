@@ -11,4 +11,6 @@ WORKDIR /app
 
 COPY . .
 
+RUN chmod a+x run_service.sh
+
 ENTRYPOINT ["./run_service.sh"]
