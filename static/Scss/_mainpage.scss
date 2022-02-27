@@ -1,0 +1,71 @@
+// Body Text
+.title_container{
+    margin-top: 5rem;
+    h1, h2{
+      text-align: center;
+      font-weight: $font-weight;
+      font-size: $font-lg;
+      color: $black;
+      text-shadow: 0.5rem 0.5rem rgba(160, 150, 150,0.32);
+    }
+  
+  }
+  
+  .reduced_size{
+    @include breakpoint-down(medium){
+      margin-top: 30vh;
+      h1,h2{
+        font-size: $font-lg-mobile;
+      }
+    }
+  }
+  
+  //Subject buttons
+  .subject{
+    display: flex;
+    &_container{
+      flex-grow: 1;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &_card{
+      background-color: $buttonColor;
+      box-shadow: 0.5rem 0.5rem rgba($color: #000000, $alpha: 0.032);
+      margin-bottom: 10rem;
+      color: $accent3Color;
+      flex: 0 0 25%;
+      border: solid $accent3Color;
+      text-align: center;
+      width: vw;
+      height: 15vh;
+      line-height: 10vh;
+      font-size: 3vmin;
+      font-weight: $font-weight;
+      border-radius: 0.5rem;
+      p{
+        color: $accent3Color;
+      }
+    }
+    &_card:hover{
+      border: solid $accent2Color;
+      background-color: $primaryColor;
+      cursor: pointer;
+      p{
+        color: $accent2Color;
+      }
+    }
+    &_mobile{
+      @include breakpoint-down(medium){
+        flex: 0 0 80%;
+        width: 100%;
+        font-size: 1.25rem;
+      }
+      @include breakpoint-up(large){
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  
+  

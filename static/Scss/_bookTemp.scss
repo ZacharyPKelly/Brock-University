@@ -1,0 +1,96 @@
+.body_bookstore{
+  font-family: "Public Sans", sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+.html_bookstore{
+  overflow-x: hidden;
+}
+
+.book{
+  &_title{
+    h1, h2{
+      text-align: center;
+      color: $black;
+      font-size: $font-lg;
+      @include breakpoint-down(medium){
+        font-size: $font-lg-mobile;
+      }
+    }
+  }
+  &_container{
+    margin: 3rem;
+  }
+  &_card{
+    background: $accent2Color;
+    color: white;
+    padding: 1rem;
+    height: 30rem;
+    width: 80%;
+    position: relative;
+  }
+  &_cards{
+    max-width: 1200px;
+    margin: 0 auto 2rem;
+    display: grid;
+    grid-gap: 1rem;
+    @include breakpoint-down(medium){
+      grid-template-columns: repeat(2, 1fr);
+      margin: 0 1rem 4rem;
+    }
+    grid-template-columns: repeat(3, 1fr);
+    a{
+      color: $primaryColor;
+      text-decoration: none;
+    }
+    a:hover{
+      color: $accentColor;
+      cursor: pointer;
+      .text_container{
+        h1,p{
+          @include breakpoint-down(medium){
+            font-size: 1rem;
+           }
+          font-size: 1.125vw;
+          transition: font-size 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+#search-box{
+  margin: 1rem;
+  padding: .5rem;
+  width: 90%;
+  height: 3rem;
+  border-radius: 25px;
+  border-color: rgba(0,0,0,.1);
+}
+.text_container{
+  position: absolute;
+  bottom: 0;
+  padding: 0.25rem;
+  margin: 0 0 0.25rem;
+  h1,p{
+    @include breakpoint-down(medium){
+      font-size: 0.75rem;
+    }
+    font-size: 1vw;
+  }
+}
+#search-box:hover{
+  border-color: rgba(0,0,0,.2);
+}
+.filler{
+  height: 300rem;
+}
+.active{
+  position: fixed;
+  top: 0; right: 0; left: 0;
+}

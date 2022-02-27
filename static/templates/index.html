@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='Img/favicon-32x32.png') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static',filename='Scss/style.css') }}">
+  <title>landing page</title>
+
+</head>
+
+<body>
+  <header class="header sticky_pos">
+        <div class="header_container">
+            <div class="overlay_set has-fade" id="overlay">
+            </div>
+            <nav class="flexHeader flexHeader-jc-sb container">
+                <a class="header_logo center_for_mobile" href="/">
+                    <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="home">
+                    <h1 class="hide_for_mobile">University Of Eswatini</h1>
+                </a>
+                <a href="#" class="header_toggle hide_for_desktop" id="btnHamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="header_link hide_for_mobile">
+                    <a href="/">Home</a><a href="about">About</a><a href="contact">Contact</a>
+                </div>
+            </nav>
+            <div class="header_menu has-fade ">
+                 <a href="/">Home</a>
+                <a href="about">About</a>
+                <a href="contact">Contact</a>
+            </div>
+        </div>
+        <hr class="hide_for_mobile">
+    </header>
+  <div class="title_container reduced_size">
+    <h1>Graduate Program</h1>
+    <h2>Textbooks & Lecture Notes</h2>
+  </div>
+  <div class="subject_container ">
+    <div class="subject_card subject_mobile" id="cp">
+      <p>Computational Physics</p>
+    </div>
+    <div class="subject_card subject_mobile" id="cm">
+      <p>Computational Mathematics</p>
+    </div>
+    <div class="subject_card subject_mobile" id="cs">
+      <p>Computer Science</p>
+    </div>
+    <div class="subject_card subject_mobile" id="bio">
+      <p>Biology</p>
+    </div>
+    <div class="subject_card subject_mobile" id="chem">
+      <p>Chemistry</p>
+    </div>
+    <div class="subject_card subject_mobile" id="math">
+      <p>Mathematics</p>
+    </div>
+  </div>
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+
+<footer>
+  <h3>&#169;</h3>
+
+</footer>
+
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" class="html_bookstore">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='Img/favicon-32x32.png') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static',filename='Scss/style.css') }}">
+    <title>{{ subject }} Textbooks</title>
+
+</head>
+
+<body class="body_bookstore">
+    <header class="header sticky_pos">
+        <div class="header_container">
+            <div class="overlay_set has-fade" id="overlay">
+            </div>
+            <nav class="flexHeader flexHeader-jc-sb container">
+                <a class="header_logo center_for_mobile" href="/">
+                    <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="home">
+                    <h1 class="hide_for_mobile">University Of Eswatini</h1>
+                </a>
+                <a href="#" class="header_toggle hide_for_desktop" id="btnHamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="header_link hide_for_mobile">
+                    <a href="/">Home</a><a href="about">About</a><a href="contact">Contact</a>
+                </div>
+            </nav>
+            <div class="header_menu has-fade ">
+                 <a href="/">Home</a>
+                <a href="about">About</a>
+                <a href="contact">Contact</a>
+            </div>
+        </div>
+        <hr class="hide_for_mobile">
+    </header>
+    <div class="book_title">
+        <h1>{{ subject }}</h1>
+        <h2>Textbooks & Lecture Notes</h2>
+    </div>
+    <div class="book_container">
+        <form action="" class="search-form" id="search-id" onkeyup="search()">
+            <input type="search" name="query" placeholder="Search here..." id="search-box">
+        </form>
+    </div>
+    <div class="book_cards">
+        {% for file in files %}
+            {% for item in information %}
+                <a href="{{ url_for('static', filename= file) }}">
+                    <div class="book_card" >
+                        <div class="text_container">
+                            <h1> {{ item['name'] }} </h1>
+                            <p>{{ item['descript'] }}</p>
+                        </div>
+                    </div>
+                </a>
+            {% endfor %}
+        {% endfor %}
+    </div>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+
+</body>
+
+<footer>
+    <h3>&#169; University Of Alberta - Augustana Campus</h3>
+</footer>
+
+</html>

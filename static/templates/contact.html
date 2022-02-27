@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/Img/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/static/Scss/style.css">
+    <title>Contact - Us</title>
+
+</head>
+
+<body>
+    <header class="header sticky_pos">
+        <div class="header_container">
+            <div class="overlay_set has-fade" id="overlay">
+            </div>
+            <nav class="flexHeader flexHeader-jc-sb container">
+                <a class="header_logo center_for_mobile" href="/">
+                    <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="home">
+                    <h1 class="hide_for_mobile">University Of Eswatini</h1>
+                </a>
+                <a href="#" class="header_toggle hide_for_desktop" id="btnHamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+                <div class="header_link hide_for_mobile">
+                    <a href="/">Home</a><a href="about">About</a><a href="contact">Contact</a>
+                </div>
+            </nav>
+            <div class="header_menu has-fade ">
+                 <a href="/">Home</a>
+                <a href="about">About</a>
+                <a href="contact">Contact</a>
+            </div>
+        </div>
+        <hr class="hide_for_mobile">
+    </header>
+    <div class="container">
+        <div class="contact_title">
+            <h1>Contact</h1>
+        </div>
+        <div class="contact_container">
+            <div class="contact_card">
+                <h2>Dr. Simiso K. Mkhonta, Associate Professor</h2>
+                <h3>Department of Physics</h3>
+                <h3>University of Eswatini, Eswatini</h3>
+                <h3>Email: smkhonta@uniswa.sz</h3>
+                <h3>Tel: +268 251 70247</h3>
+                <a href="http://www.uneswa.ac.sz">http://www.uneswa.ac.sz</a>
+            </div>
+            <div class="contact_card">
+                <h2>Dr. Peter Berg, Professor</h2>
+                <h3>Department of Science</h3>
+                <h3>University of Alberta, Canada</h3>
+                <h3>Email: pberg@ualberta.ca</h3>
+                <h3>Tel: +1 780 679 1514</h3>
+                <a href="http://www.peterberg.net">http://www.peterberg.net</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+    <footer class="absoulte">
+        &#169;
+    </footer>
+</body>
+
+
+</html>

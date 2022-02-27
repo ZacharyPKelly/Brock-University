@@ -1,0 +1,24 @@
+.contact{
+    display: flex;
+    &_title{
+        font-size: $font-med;
+    }
+    &_container{
+        display: flex;
+        flex-grow: 1;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    &_card{
+        flex: 0 0 25%;
+        h2, h3,a{
+
+            font-size: $font-contact-card;
+            
+            text-decoration: none;
+            font-weight: $font-weight;
+            margin: 0;
+        }
+        color: $accent2Color;
+    }
+}

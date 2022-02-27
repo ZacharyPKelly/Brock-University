@@ -1,0 +1,21 @@
+alerts:
+- disabled: true
+  rule: DEPLOYMENT_FAILED
+- rule: DOMAIN_FAILED
+name: eswatini-project
+region: tor
+services:
+- dockerfile_path: Dockerfile
+  github:
+    branch: main
+    deploy_on_push: true
+    repo: pnadon/Eswatini-Project
+  health_check:
+    http_path: /health
+  http_port: 8080
+  instance_count: 1
+  instance_size_slug: basic-xxs
+  name: eswatini-project
+  routes:
+  - path: /
+  source_dir: /

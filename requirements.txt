@@ -1,0 +1,10 @@
+certifi
+gunicorn
+Flask
+Flask-Limiter
+importlib-metadata
+Jinja2
+python-dateutil
+requests
+urllib3
+flask_cors
