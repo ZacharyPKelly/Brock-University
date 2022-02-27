@@ -41,7 +41,7 @@ def openTextBook(file):
         information = txtBooks['Chemistry']
         files = [books['file'] for books in information]
         return render_template("subject.html", files=files, subject="Chemistry", information=information,
-                               shortcut='bio')
+                               shortcut='chem')
 
 
 @app.route("/health")
