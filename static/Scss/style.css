@@ -339,7 +339,7 @@ a, a:visited, a:hover {
   font-weight: 700;
   font-size: 3vw;
   color: #020202;
-  text-shadow: 0.5rem 0.5rem rgba(160, 150, 150, 0.32);
+  text-shadow: 0.5rem 0.5rem rgba(160, 150, 150, 0.15);
 }
 
 @media (max-width: 63.9375em) {
@@ -368,7 +368,7 @@ a, a:visited, a:hover {
   flex: 0 0 25%;
   border: solid #8b8b8bec;
   text-align: center;
-  width: vw;
+  width: 1.5vw;
   height: 15vh;
   line-height: 10vh;
   font-size: 3vmin;
