@@ -1,5 +1,8 @@
 // Body Text
 .title_container{
+  @include breakpoint-down(medium){
+    margin-top: 0;
+  }
     margin-top: 5rem;
     h1, h2{
       text-align: center;
@@ -13,7 +16,6 @@
   
   .reduced_size{
     @include breakpoint-down(medium){
-      margin-top: 30vh;
       h1,h2{
         font-size: $font-lg-mobile;
       }
