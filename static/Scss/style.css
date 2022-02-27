@@ -286,7 +286,6 @@ a, a:visited, a:hover {
 
 @media (max-width: 63.9375em) {
   .sticky_pos {
-    position: fixed;
     top: 0;
     width: 100%;
   }

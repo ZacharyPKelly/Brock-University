@@ -127,7 +127,6 @@
 
 .sticky_pos{
     @include breakpoint-down(medium){
-        position: fixed;
         top: 0;
         width: 100%;
     }
