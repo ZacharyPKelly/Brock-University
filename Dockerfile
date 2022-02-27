@@ -11,4 +11,4 @@ WORKDIR /app
 
 COPY . .
 
-ENTRYPOINT ["sh","/usr/src/app//run_service.sh"]
+ENTRYPOINT ["sh","/usr/src/app/run_service.sh"]
