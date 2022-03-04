@@ -290,7 +290,7 @@ a, a:visited, a:hover {
   color: #cb5757;
   padding: 0.625rem;
   display: block;
-  font-size: 5.75vw;
+  font-size: 7vw;
   text-align: center;
 }
 
@@ -300,7 +300,7 @@ a, a:visited, a:hover {
 
 .header_link a {
   position: relative;
-  font-size: 7vw;
+  font-size: 2.5vw;
   font-weight: 700;
   margin: 1rem;
   -webkit-transition: color 1.5ms;
