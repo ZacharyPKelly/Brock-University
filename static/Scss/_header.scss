@@ -74,7 +74,7 @@
             color: $accent2Color;
             padding: 0.625rem;
             display: block;
-            font-size: $font-menu-size;
+            font-size: $font-lg-mobile;
             text-align: center;
         }
 
@@ -85,7 +85,7 @@
 
         a{
             position: relative;
-            font-size: $font-lg-mobile;
+            font-size: $font-menu-size;
             font-weight: $font-weight;
             margin: 1rem;
             transition: color 1.5ms;
