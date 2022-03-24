@@ -534,6 +534,7 @@ a, a:visited, a:hover {
       flex-wrap: wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  min-height: calc(100vh - 40px);
 }
 
 .contact_card {
@@ -544,18 +545,18 @@ a, a:visited, a:hover {
 }
 
 .contact_card h2, .contact_card h3, .contact_card a {
-  font-size: 1vw;
+  font-size: 1.25rem;
   text-decoration: none;
   font-weight: 700;
   margin: 0;
 }
 
 .about_title {
-  font-size: 1.25vw;
+  font-size: 1.75vw;
 }
 
 .about_container p {
-  font-size: 2vw;
+  font-size: 1.25rem;
 }
 
 footer {

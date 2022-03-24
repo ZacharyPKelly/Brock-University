@@ -30,13 +30,17 @@
                     <span></span>
                 </a>
                 <div class="header_link hide_for_mobile">
-                    <a href="/">Home</a><a href="about">About</a><a href="contact">Contact</a>
+                    <a href="/">Home</a><a href="about">About</a><a href="contact">Contact</a> <a
+                        href="{{ url_for('static', filename = 'books/CreateBook/_build/html/index.html') }}">Learning
+                        Markdown</a>
                 </div>
             </nav>
             <div class="header_menu has-fade ">
-                 <a href="/">Home</a>
+                <a href="/">Home</a>
                 <a href="about">About</a>
                 <a href="contact">Contact</a>
+                <a href="{{ url_for('static', filename = 'books/CreateBook/_build/html/index.html') }}">Learning
+                    Markdown</a>
             </div>
         </div>
         <hr class="hide_for_mobile">
@@ -68,7 +72,7 @@
     <script src="/static/js/script.js"></script>
 </body>
 
-<footer class="absoulte">
+<footer>
     &#169;
 </footer>
 
