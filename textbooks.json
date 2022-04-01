@@ -1,21 +1,18 @@
-{"Biology": [
-
-  {"file": "",
-
-    "name":  "",
-
-    "descript": "",
-
-    "image": ""}
-
-], "Chemistry": [
-
-  {"file": "",
-
-    "name":  "",
-
-    "descript": "",
-
-    "image": ""}
-
-]}
+{
+  "Biological Science": [
+    {
+      "file": "",
+      "name": "",
+      "descript": "",
+      "image": ""
+    }
+  ],
+  "Chemistry": [
+    {
+      "file": "",
+      "name": "",
+      "descript": "",
+      "image": ""
+    }
+  ]
+}

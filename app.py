@@ -34,9 +34,9 @@ def openTextBook(file):
     txtBooks = json.load(jsonFile)
     jsonFile.close()
     if 'bio' in file:
-        information = txtBooks['Biology']
+        information = txtBooks['Biological Science']
         files = [books['file'] for books in information]
-        return render_template("subject.html", files=files, subject="Biology", information=information, shortcut='bio')
+        return render_template("subject.html", files=files, subject="Biological Science", information=information, shortcut='bio')
     elif 'chem' in file:
         information = txtBooks['Chemistry']
         files = [books['file'] for books in information]
