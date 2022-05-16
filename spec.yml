@@ -7,7 +7,7 @@ region: tor
 services:
 - dockerfile_path: Dockerfile
   github:
-    branch: test
+    branch: main
     deploy_on_push: true
     repo: pnadon/Eswatini-Project
   health_check:
