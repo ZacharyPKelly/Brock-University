@@ -2,12 +2,26 @@
   "Biological Science": [
     {
       "file": "",
+      "name": "Plants",
+      "descript": "Things about plants",
+      "image": ""
+    }
+  ],
+  "Chemistry": [
+    {
+      "file": "",
+      "name": "",
+      "descript": "",
+      "image": ""
+    },
+    {
+      "file": "",
       "name": "",
       "descript": "",
       "image": ""
     }
   ],
-  "Chemistry": [
+  "Physics": [
     {
       "file": "",
       "name": "",
