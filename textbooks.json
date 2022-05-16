@@ -1,7 +1,7 @@
 {
   "Biological Science": [
     {
-      "file": "books/CreateBook/notebooks.ipynb",
+      "file": "books/CreateBook/notebooks.html",
       "name": "Plants",
       "descript": "Things about plants",
       "image": ""
