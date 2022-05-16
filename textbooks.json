@@ -10,13 +10,13 @@
   "Chemistry": [
     {
       "file": "",
-      "name": "",
+      "name": "Book One",
       "descript": "",
       "image": ""
     },
     {
       "file": "",
-      "name": "",
+      "name": "Book Two",
       "descript": "",
       "image": ""
     }
@@ -24,7 +24,7 @@
   "Physics": [
     {
       "file": "",
-      "name": "",
+      "name": "Physics Book",
       "descript": "",
       "image": ""
     }
