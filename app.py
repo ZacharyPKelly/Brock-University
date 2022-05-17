@@ -40,9 +40,11 @@ def openTextBook(file):
     elif 'chem' in file:
         information = txtBooks['Chemistry']
         files = [books['file'] for books in information]
-        return render_template("subject.html", files=files, subject="Chemistry", information=information,
-                               shortcut='chem')
-
+        return render_template("subject.html", files=files, subject="Chemistry", information=information, shortcut='chem')
+    elif 'phy' in file:
+        information = txtBooks['Physics']
+        files = [books['file'] for books in information]
+        return render_template("subject.html", files=files, subject="Physics", information=information, shortcut='phy')
 
 @app.route("/health")
 def health():
