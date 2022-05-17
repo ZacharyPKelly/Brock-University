@@ -25,33 +25,33 @@
   ],
   "Mathematics": [
     {
-      "file": "Mathematics",
-      "name": "Mathematics Book",
-      "descript": "",
+      "file": "",
+      "name": "Mathematics",
+      "descript": "Mathematics Book",
       "image": ""
     }
   ],
   "Computer Science": [
     {
-      "file": "Computer Science",
-      "name": "Computer Science Book",
-      "descript": "",
+      "file": "",
+      "name": "Computer Science",
+      "descript": "Computer Science Book",
       "image": ""
     }
   ],
   "E&E Engineering": [
     {
-      "file": "E&E Engineering",
-      "name": "E&E Engineering Book",
-      "descript": "",
+      "file": "",
+      "name": "E&E Engineering",
+      "descript": "E&E Engineering Book",
       "image": ""
     }
   ],
   "GESP": [
     {
-      "file": "GESP",
-      "name": "GESP Book",
-      "descript": "",
+      "file": "",
+      "name": "GESP",
+      "descript": "GESP Book",
       "image": ""
     }
   ]
