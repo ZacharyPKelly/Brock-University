@@ -2,29 +2,55 @@
   "Biological Science": [
     {
       "file": "books/CreateBook/notebooks.ipynb",
-      "name": "Plants",
-      "descript": "Things about plants",
+      "name": "Biological Science",
+      "descript": "Biological Science Book",
       "image": ""
     }
   ],
   "Chemistry": [
     {
       "file": "",
-      "name": "Book One",
-      "descript": "",
-      "image": ""
-    },
-    {
-      "file": "",
-      "name": "Book Two",
-      "descript": "",
+      "name": "Chemistry",
+      "descript": "Chemistry Book",
       "image": ""
     }
   ],
   "Physics": [
     {
       "file": "",
-      "name": "Physics Book",
+      "name": "Physics",
+      "descript": "Physics Book",
+      "image": ""
+    }
+  ],
+  "Mathematics": [
+    {
+      "file": "Mathematics",
+      "name": "Mathematics Book",
+      "descript": "",
+      "image": ""
+    }
+  ],
+  "Computer Science": [
+    {
+      "file": "Computer Science",
+      "name": "Computer Science Book",
+      "descript": "",
+      "image": ""
+    }
+  ],
+  "E&E Engineering": [
+    {
+      "file": "E&E Engineering",
+      "name": "E&E Engineering Book",
+      "descript": "",
+      "image": ""
+    }
+  ],
+  "GESP": [
+    {
+      "file": "GESP",
+      "name": "GESP Book",
       "descript": "",
       "image": ""
     }
