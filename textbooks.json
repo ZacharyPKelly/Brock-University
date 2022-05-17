@@ -1,7 +1,7 @@
 {
   "Biological Science": [
     {
-      "file": "books/CreateBook/notebooks.ipynb",
+      "file": "books/CreateBook/testOne.ipynb",
       "name": "Biological Science",
       "descript": "Biological Science Book",
       "image": ""
@@ -9,7 +9,7 @@
   ],
   "Chemistry": [
     {
-      "file": "books/CreateBook/markdown.md",
+      "file": "books/CreateBook/testTwo.ipynb",
       "name": "Chemistry",
       "descript": "Chemistry Book",
       "image": ""
