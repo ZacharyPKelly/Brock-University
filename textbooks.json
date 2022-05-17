@@ -10,8 +10,14 @@
   "Chemistry": [
     {
       "file": "books/CreateBook/testTwo.ipynb",
-      "name": "Chemistry",
-      "descript": "Chemistry Book",
+      "name": "Chemistry One",
+      "descript": "Chemistry One Book",
+      "image": ""
+    },
+    {
+      "file": "books/CreateBook/testOne.ipynb",
+      "name": "Chemistry Two",
+      "descript": "Chemistry Two Book",
       "image": ""
     }
   ],
