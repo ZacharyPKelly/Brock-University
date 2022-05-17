@@ -55,7 +55,7 @@
             {% for item in information %}
                 <a href="https://nbviewer.org/urls/mint-ed.me/static/{{file}}" target="_blank">
                     <div class="book_card" >
-                        <img scr="static/books/CreateBook/deer.png">
+                        <img src="{{ url_for('static', filename='Img/deer.png') }}" alt="deer">
                         <div class="text_container">
                             <h1> {{ item['name'] }} </h1>
                             <p>{{ item['descript'] }}</p>
