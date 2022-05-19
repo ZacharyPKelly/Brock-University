@@ -2,6 +2,7 @@
   "Biological Science": [
     {
       "file": "books/CreateBook/testOne.ipynb",
+      "type":"notebook",
       "name": "Biological Science",
       "descript": "Biological Science Book",
       "image": "static/books/CreateBook/deer.png"
@@ -10,12 +11,14 @@
   "Chemistry": [
     {
       "file": "books/CreateBook/testTwo.ipynb",
+      "type":"notebook",
       "name": "Chemistry One",
       "descript": "Chemistry One Book",
       "image": ""
     },
     {
       "file": "books/CreateBook/testOne.ipynb",
+      "type":"notebook",
       "name": "Chemistry Two",
       "descript": "Chemistry Two Book",
       "image": ""
@@ -24,6 +27,7 @@
   "Physics": [
     {
       "file": "books/CreateBook/html/index.html",
+      "type":"book",
       "name": "Physics",
       "descript": "Physics Book",
       "image": ""
@@ -32,6 +36,7 @@
   "Mathematics": [
     {
       "file": "",
+      "type":"",
       "name": "Mathematics",
       "descript": "Mathematics Book",
       "image": ""
@@ -40,6 +45,7 @@
   "Computer Science": [
     {
       "file": "",
+      "type":"",
       "name": "Computer Science",
       "descript": "Computer Science Book",
       "image": ""
@@ -48,6 +54,7 @@
   "E&E Engineering": [
     {
       "file": "",
+      "type":"",
       "name": "E&E Engineering",
       "descript": "E&E Engineering Book",
       "image": ""
@@ -56,6 +63,7 @@
   "GESP": [
     {
       "file": "",
+      "type":"",
       "name": "GESP",
       "descript": "GESP Book",
       "image": ""

@@ -37,36 +37,43 @@ def openTextBook(file):
     if 'bio' in file:
         information = txtBooks['Biological Science']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="Biological Science", information=information, shortcut='bio')
 
     elif 'chem' in file:
         information = txtBooks['Chemistry']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="Chemistry", information=information, shortcut='chem')
 
     elif 'phy' in file:
         information = txtBooks['Physics']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="Physics", information=information, shortcut='phy')
 
     elif 'cs' in file:
         information = txtBooks['Computer Science']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="Computer Science", information=information, shortcut='cs')
 
     elif 'math' in file:
         information = txtBooks['Mathematics']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="Mathematics", information=information, shortcut='math')
 
     elif 'eeeng' in file:
         information = txtBooks['E&E Engineering']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="E&E Engineering", information=information, shortcut='eeeng')
 
     elif 'gesp' in file:
         information = txtBooks['GESP']
         files = [books['file'] for books in information]
+        types = [books['type'] for books in information]
         return render_template("subject.html", files=files, subject="GESP", information=information, shortcut='gesp')
 
 @app.route("/health")
