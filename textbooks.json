@@ -23,7 +23,7 @@
   ],
   "Physics": [
     {
-      "file": "books/CreateBook/index.html",
+      "file": "books/CreateBook/html/index.html",
       "name": "Physics",
       "descript": "Physics Book",
       "image": ""
