@@ -1,26 +1,19 @@
 {
   "Biological Science": [
     {
-      "file": "books/CreateBook/testOne.ipynb",
-      "type": "notebook",
+      "file": "",
+      "type": "",
       "name": "Biological Science",
       "descript": "Biological Science Book",
-      "image": "static/books/CreateBook/deer.png"
+      "image": ""
     }
   ],
   "Chemistry": [
     {
-      "file": "books/CreateBook/testTwo.ipynb",
-      "type": "notebook",
+      "file": "",
+      "type": "",
       "name": "Chemistry One",
       "descript": "Chemistry One Book",
-      "image": ""
-    },
-    {
-      "file": "books/CreateBook/testOne.ipynb",
-      "type": "notebook",
-      "name": "Chemistry Two",
-      "descript": "Chemistry Two Book",
       "image": ""
     }
   ],
@@ -28,8 +21,15 @@
     {
       "file": "books/CreateBook/html/index.html",
       "type": "book",
-      "name": "Physics",
-      "descript": "Physics Book",
+      "name": "Test Jupyter Book",
+      "descript": "Juypter Book for testing",
+      "image": ""
+    },
+    {
+      "file": "books/CreateBook/testOne.ipynb",
+      "type": "notebook",
+      "name": "Test Notebook",
+      "descript": "Notebook for testing",
       "image": ""
     }
   ],
