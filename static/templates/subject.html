@@ -52,11 +52,11 @@
     </div>
     <div class="book_cards">
         {% for file in files %}
-            {% for item in information %}
+            {% for item in information %} <!--I think this might be unnessecary? or at least be the reason duplicates are being made-->
                 {% if item['type'] == 'book' %}
                     <a href="{{ url_for('static', filename= file) }}" target="_blank">
                         <div class="book_card" >
-                            <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+                            <img src="{{ url_for('static', filename= item['image']) }}" alt="logo">
                              <div class="text_container">
                                 <h1> {{ item['name'] }} </h1>
                                 <p>{{ item['descript'] }}</p>
@@ -67,7 +67,7 @@
                 {% if item['type'] == 'notebook' %}
                     <a href="https://nbviewer.org/urls/mint-ed.me/static/{{file}}" target="_blank">
                         <div class="book_card" >
-                            <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+                            <img src= "{{ url_for('static', filename= item['image']) }}" alt="logo">
                             <div class="text_container">
                                 <h1> {{ item['name'] }} </h1>
                                 <p>{{ item['descript'] }}</p>
