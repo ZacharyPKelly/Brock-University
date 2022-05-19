@@ -32,6 +32,13 @@
       "descript": "Notebook for testing",
       "image": ""
     }
+    {
+      "file": "books/CreateBook/testTwo.ipynb",
+      "type": "notebook",
+      "name": "Test Notebook2",
+      "descript": "Notebook2 for testing",
+      "image": ""
+    }
   ],
   "Mathematics": [
     {
