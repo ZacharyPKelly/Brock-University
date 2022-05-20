@@ -42,20 +42,20 @@
   ],
   "Mathematics": [
     {
-      "file": "",
-      "type": "",
-      "name": "Mathematics",
-      "descript": "Mathematics Book",
+      "file": "books/CreateBook/html/index.html",
+      "type": "book",
+      "name": "Test Jupyter Book",
+      "descript": "Juypter Book for testing",
       "image": ""
     }
   ],
   "Computer Science": [
     {
-      "file": "",
-      "type": "",
-      "name": "Computer Science",
+      "file": "books/CreateBook/testOne.ipynb",
+      "type": "notebook",
+      "name": "Test Notebook",
       "descript": "Computer Science Book",
-      "image": ""
+      "image": "Notebook for testing"
     }
   ],
   "E&E Engineering": [
