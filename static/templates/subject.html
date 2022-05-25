@@ -54,34 +54,36 @@
         {% for file in files %}
             {% for item in information %} <!--I think this might be unnessecary? or at least be the reason duplicates are being made-->
                 {% if item['type'] == 'book' %}
-                    <div class="book_card" >
-                        <img src="{{ url_for('static', filename= item['image']) }}" alt="logo">
-                        <a href="{{ url_for('static', filename= file) }}" target="_blank"></a>
+                    <a href="{{ url_for('static', filename= file) }}" target="_blank">
+                        <div class="book_card" >
+                            <img src="{{ url_for('static', filename= item['image']) }}" alt="logo">
                             <div class="text_container">
                                 <h1> {{ item['name'] }} </h1>
                                 <p>{{ item['descript'] }}</p>
                             </div>
-                        </a>
-                        </div class="download">
+                        </div>
+                    </a>
+                    <a href="{{ url_for('static', filename= file) }}" target="_blank">
+                        <div class="download" >
                             <h1>DOWNLOAD</h1>
                         </div>
-                    </div>
+                    </a>
                 {% endif %}
                 {% if item['type'] == 'notebook' %}
-                    <div class="book_card" >
-                        <img src= "{{ url_for('static', filename= item['image']) }}" alt="logo">
-                        <a href="https://nbviewer.org/urls/mint-ed.me/static/{{file}}" target="_blank"></a>
+                    <a href="https://nbviewer.org/urls/mint-ed.me/static/{{file}}" target="_blank">
+                        <div class="book_card" >
+                            <img src= "{{ url_for('static', filename= item['image']) }}" alt="logo">
                             <div class="text_container">
                                 <h1> {{ item['name'] }} </h1>
                                 <p>{{ item['descript'] }}</p>
                             </div>
-                        </a>
-                        <a href="{{ url_for('static', filename= file) }}">
-                            </div class="download">
-                                <h1>DOWNLOAD</h1>
-                            </div>
-                        </a>
-                    </div>
+                        </div>
+                    </a>
+                    <a href="{{ url_for('static', filename= file) }}" target="_blank">
+                        <div class="download" >
+                            <h1>DOWNLOAD</h1>
+                        </div>
+                    </a>
                 {% endif %}
             {% endfor %}
         {% endfor %}
