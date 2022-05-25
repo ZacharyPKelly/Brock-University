@@ -23,7 +23,7 @@
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
-      "image": ""
+      "image": "Img/logo.svg"
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",

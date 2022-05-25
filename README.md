@@ -43,6 +43,8 @@ Jeremy Sylvestre
 
 [Joseph Menezes](https://github.com/joeguy57)
 
+[Zachary Kelly](https://github.com/ZacharyPKelly) 
+
 ---
 
 **University of Eswatini Team:**
