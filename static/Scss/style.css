@@ -82,6 +82,20 @@ img {
   border-color: rgba(0, 0, 0, 0.1);
 }
 
+.download {
+  position: absolute;
+  background: #e61c1c;
+  border: #020202;
+  border-style: solid;
+  color: #020202;
+  top: 0;
+  padding: 0.25rem;
+  margin: 0 0 0.25rem;  
+}
+.download h1 {
+  font-size: 1vw;
+}
+
 .text_container {
   position: absolute;
   bottom: 0;
