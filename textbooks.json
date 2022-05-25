@@ -23,21 +23,21 @@
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
-      "image": "Img/testDeer.jpg"
+      "image": ""
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
-      "image": "Img/testHorse.jpg"
+      "image": ""
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
       "type": "notebook",
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
-      "image": "Img/testMoose.jpg"
+      "image": ""
     }
   ],
   "Mathematics": [
