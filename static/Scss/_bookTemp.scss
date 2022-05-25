@@ -48,6 +48,10 @@
       color: $primaryColor;
       text-decoration: none;
     }
+    img {
+      width: 100%;
+      height: 100%;
+    }
     a:hover{
       color: $accentColor;
       cursor: pointer;
