@@ -57,11 +57,11 @@ img {
   }
 }
 .book_cards a {
-  color: #ffeaea;
+  color: #020202;
   text-decoration: none;
 }
 .book_cards a:hover {
-  color: #CC3D3D;
+  color: #020202;
   cursor: pointer;
 }
 .book_cards a:hover .text_container h1, .book_cards a:hover .text_container p {
