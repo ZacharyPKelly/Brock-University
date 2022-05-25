@@ -19,30 +19,30 @@
   ],
   "Physics": [
     {
-      "file": "books/CreateBook/html/index.html",
+      "file": "books/CreateBook/juypterBooks/testBook/index.html",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
-      "image": ""
+      "image": "Img/one.svg"
     },
     {
-      "file": "books/CreateBook/testOne.ipynb",
+      "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
-      "image": ""
+      "image": "Img/two.svg"
     },
     {
-      "file": "books/CreateBook/testTwo.ipynb",
+      "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
       "type": "notebook",
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
-      "image": ""
+      "image": "Img/three.svg"
     }
   ],
   "Mathematics": [
     {
-      "file": "books/CreateBook/html/index.html",
+      "file": "books/CreateBook/juypterBooks/testBook/index.html",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
@@ -51,11 +51,11 @@
   ],
   "Computer Science": [
     {
-      "file": "books/CreateBook/testOne.ipynb",
+      "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
       "type": "notebook",
       "name": "Test Notebook",
-      "descript": "Computer Science Book",
-      "image": "Notebook for testing"
+      "descript": "Notebook for testing",
+      "image": ""
     }
   ],
   "E&E Engineering": [
