@@ -56,8 +56,9 @@
                 {% if item['type'] == 'book' %}
                     <a href="{{ url_for('static', filename= file) }}" target="_blank">
                         <div class="book_card" >
-                            <img src="{{ url_for('static', filename= item['image']) }}" alt="logo">
-                             <div class="text_container">
+                            <!--img src="{{ url_for('static', filename= item['image']) }}" alt="logo"-->
+                            <iframe id="frame" src="{{ url_for('static', filename= file) }}" scrolling="no"></iframe>
+                            <div class="text_container">
                                 <h1> {{ item['name'] }} </h1>
                                 <p>{{ item['descript'] }}</p>
                             </div>
@@ -67,7 +68,8 @@
                 {% if item['type'] == 'notebook' %}
                     <a href="https://nbviewer.org/urls/mint-ed.me/static/{{file}}" target="_blank">
                         <div class="book_card" >
-                            <img src= "{{ url_for('static', filename= item['image']) }}" alt="logo">
+                            <!--img src= "{{ url_for('static', filename= item['image']) }}" alt="logo"-->
+                            <iframe id="frame" src="https://nbviewer.org/urls/mint-ed.me/static/{{file}}" scrolling="no"></iframe>
                             <div class="text_container">
                                 <h1> {{ item['name'] }} </h1>
                                 <p>{{ item['descript'] }}</p>
