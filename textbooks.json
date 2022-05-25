@@ -30,7 +30,7 @@
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
-      "image": ""
+      "image": "Img/testHorse.jpg"
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
