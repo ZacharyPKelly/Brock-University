@@ -90,12 +90,11 @@ img {
   background: #e61c1c;
   border: #020202;
   border-style: solid;
+  border-radius: 8px;
   color: #020202;
   width: 80%;
   height: 2rem;
   top: 0.25rem;
-  padding: 0.25rem;
-  margin: auto;
   text-align: center;  
 }
 .download h1 {
