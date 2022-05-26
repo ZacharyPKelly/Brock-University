@@ -2,6 +2,7 @@
   "Biological Science": [
     {
       "file": "",
+      "zip": "",
       "type": "",
       "name": "Biological Science",
       "descript": "Biological Science Book",
@@ -11,6 +12,7 @@
   "Chemistry": [
     {
       "file": "",
+      "zip": "",
       "type": "",
       "name": "Chemistry One",
       "descript": "Chemistry One Book",
@@ -20,6 +22,7 @@
   "Physics": [
     {
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
+      "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
@@ -27,6 +30,7 @@
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
+      "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
@@ -34,6 +38,7 @@
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
+      "zip": "",
       "type": "notebook",
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
@@ -43,6 +48,7 @@
   "Mathematics": [
     {
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
+      "zip": "",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
@@ -52,6 +58,7 @@
   "Computer Science": [
     {
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
+      "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
@@ -61,6 +68,7 @@
   "E&E Engineering": [
     {
       "file": "",
+      "zip": "",
       "type": "",
       "name": "E&E Engineering",
       "descript": "E&E Engineering Book",
@@ -70,6 +78,7 @@
   "GESP": [
     {
       "file": "",
+      "zip": "",
       "type": "",
       "name": "GESP",
       "descript": "GESP Book",

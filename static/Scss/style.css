@@ -84,13 +84,13 @@ img {
 }
 
 .download {
-  position: sticky;
+  position: absolute;
   background: #e61c1c;
   border: #020202;
   border-style: solid;
   color: #020202;
   max-width: 100%;
-  top: 0;
+  bottom: 0;
   padding: 0.25rem;
   margin: 0 0 0.25rem;
   text-align: center;  
@@ -102,7 +102,6 @@ img {
 .text_container {
   position: absolute;
   bottom: 0;
-  text-align: center;
   padding: 0.25rem;
   margin: 0 0 0.25rem;
 }
