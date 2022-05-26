@@ -40,7 +40,9 @@
 img {
   width: 80%;
   margin: auto;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .book_cards {
@@ -89,7 +91,7 @@ img {
   border: #020202;
   border-style: solid;
   color: #020202;
-  max-width: 100%;
+  width: 80%;
   top: 0;
   padding: 0.25rem;
   margin: 0 0 0.25rem;
