@@ -41,7 +41,7 @@ img {
   width: 80%;
   margin: auto;
   display: block;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 
@@ -92,7 +92,7 @@ img {
   border-style: solid;
   color: #020202;
   max-width: 100%;
-  bottom: 0;
+  bottom: auto;
   padding: 0.25rem;
   margin: 0 0 0.25rem;
   text-align: center;  
