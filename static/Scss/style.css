@@ -28,7 +28,7 @@
   margin: 3rem;
 }
 .book_card {
-  background: #ffeaea;
+  background: #8b8b8bec;
   border: #020202;
   border-style: solid;
   color: #020202;
@@ -89,7 +89,7 @@ img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background: #cb5757;
+  background: #ffeaea;
   border: #020202;
   border-style: solid;
   border-radius: 8px;
@@ -106,7 +106,7 @@ img {
   font-size: 1vw;
 }
 .download:hover {
-  background: #ff0000;
+  background: #CC3D3D;
   cursor: pointer;
 }
 .text_container {
