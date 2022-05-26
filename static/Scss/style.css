@@ -41,6 +41,8 @@ img {
   width: 80%;
   margin: auto;
   display: block;
+  position: absolute;
+  top: 0;
 }
 
 .book_cards {
@@ -84,7 +86,7 @@ img {
 }
 
 .download {
-  position: absolute;
+  position: relative;
   background: #e61c1c;
   border: #020202;
   border-style: solid;
