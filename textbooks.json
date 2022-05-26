@@ -38,7 +38,7 @@
     },
     {
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
-      "zip": "",
+      "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "notebook",
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",

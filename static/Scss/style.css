@@ -105,7 +105,14 @@ img {
 .download h1 {
   font-size: 1vw;
 }
-
+.download a:hover {
+  color: #020202;
+  cursor: pointer;
+}
+.download a:hover .download h1 {
+  font-size: 1.125vw;
+  transition: font-size 0.3s ease-in-out;
+}
 .text_container {
   position: absolute;
   bottom: 0;
