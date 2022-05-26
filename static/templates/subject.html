@@ -62,12 +62,12 @@
                                 <p>{{ item['descript'] }}</p>
                             </div>
                         </a>
+                        <a href="{{ url_for('static', filename= file) }}" target="_blank">
+                            <div class="download" >
+                                <h1>DOWNLOAD</h1>
+                            </div>
+                        </a>
                     </div>
-                    <!--<a href="{{ url_for('static', filename= file) }}" target="_blank">
-                        <div class="download" >
-                            <h1>DOWNLOAD</h1>
-                        </div>-->
-                    </a>
                 {% endif %}
                 {% if item['type'] == 'notebook' %}
                     <div class="book_card" >
@@ -78,12 +78,12 @@
                                 <p>{{ item['descript'] }}</p>
                             </div>
                         </a>
+                        <a href="{{ url_for('static', filename= file) }}" target="_blank">
+                            <div class="download" >
+                                <h1>DOWNLOAD</h1>
+                            </div>
+                        </a>
                     </div>
-                    <!--<a href="{{ url_for('static', filename= file) }}" target="_blank">
-                        <div class="download" >
-                            <h1>DOWNLOAD</h1>
-                        </div>-->
-                    </a>
                 {% endif %}
             {% endfor %}
         {% endfor %}
