@@ -89,7 +89,7 @@ img {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  background: #e61c1c;
+  background: #cb5757;
   border: #020202;
   border-style: solid;
   border-radius: 8px;
@@ -105,13 +105,9 @@ img {
 .download h1 {
   font-size: 1vw;
 }
-.download a:hover {
-  color: #020202;
+.download:hover {
+  color: #ff0000;
   cursor: pointer;
-}
-.download a:hover .download h1 {
-  font-size: 1.125vw;
-  transition: font-size 0.3s ease-in-out;
 }
 .text_container {
   position: absolute;
