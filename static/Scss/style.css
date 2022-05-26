@@ -87,6 +87,8 @@ img {
 
 .download {
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   background: #e61c1c;
   border: #020202;
   border-style: solid;
@@ -95,7 +97,10 @@ img {
   width: 80%;
   height: 2rem;
   top: 0.25rem;
-  text-align: center;  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
 .download h1 {
   font-size: 1vw;
