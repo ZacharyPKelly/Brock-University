@@ -1,5 +1,6 @@
 {
-  "Biological Science": [
+  "Biological Science": {
+    "bookOne": 
     {
       "file": "",
       "zip": "",
@@ -8,7 +9,7 @@
       "descript": "Biological Science Book",
       "image": ""
     }
-  ],
+},
   "Chemistry": [
     {
       "file": "",
@@ -19,7 +20,8 @@
       "image": ""
     }
   ],
-  "Physics": [
+  "Physics": {
+    "bookOne": 
     {
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
       "zip": "books/zippedJuypterBooks/testBook.zip",
@@ -28,6 +30,7 @@
       "descript": "Juypter Book for testing",
       "image": "Img/one.svg"
     },
+    "bookTwo":
     {
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
       "zip": "",
@@ -36,6 +39,7 @@
       "descript": "Notebook for testing",
       "image": "Img/two.svg"
     },
+    "bookThree":
     {
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
       "zip": "books/zippedJuypterBooks/testBook.zip",
@@ -44,7 +48,8 @@
       "descript": "Notebook2 for testing",
       "image": "Img/three.svg"
     }
-  ],
+  }
+  ,
   "Mathematics": [
     {
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
