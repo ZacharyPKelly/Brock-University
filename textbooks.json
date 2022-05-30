@@ -1,6 +1,5 @@
 {
-  "Biological Science": {
-    "bookOne": 
+  "Biological Science": [
     {
       "file": "",
       "zip": "",
@@ -9,7 +8,7 @@
       "descript": "Biological Science Book",
       "image": ""
     }
-},
+  ],
   "Chemistry": [
     {
       "file": "",
@@ -20,40 +19,36 @@
       "image": ""
     }
   ],
-  "Physics": {
-    "bookOne": 
-    {
+  "Physics": [
+    [{
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
       "image": "Img/one.svg"
-    },
-    "bookTwo":
-    {
+    }],
+    [{
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
       "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
       "image": "Img/two.svg"
-    },
-    "bookThree":
-    {
+    }],
+    [{
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "notebook",
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
       "image": "Img/three.svg"
-    }
-  }
-  ,
+    }]
+  ],
   "Mathematics": [
     {
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
-      "zip": "",
+      "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
