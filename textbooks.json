@@ -20,30 +20,30 @@
     }
   ],
   "Physics": [
-    {
+    [{
       "file": "books/CreateBook/juypterBooks/testBook/index.html",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
       "image": "Img/one.svg"
-    },
-    {
+    }],
+    [{
       "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
       "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
       "image": "Img/two.svg"
-    },
-    {
+    }],
+    [{
       "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "notebook",
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
       "image": "Img/three.svg"
-    }
+    }]
   ],
   "Mathematics": [
     {
