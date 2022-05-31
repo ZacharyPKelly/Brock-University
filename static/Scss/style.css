@@ -47,6 +47,7 @@ img {
 
 .book_cards {
   max-width: 1200px;
+  max-height: 825px;
   margin: 0 auto 2rem;
   display: grid;
   grid-gap: 1rem;
