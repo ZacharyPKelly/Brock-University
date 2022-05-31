@@ -44,7 +44,7 @@ img {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media (max-width: 50em) {
+@media (max-width: 40em) {
   .book_card {
     max-height: 18rem;
   }
