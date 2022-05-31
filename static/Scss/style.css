@@ -114,6 +114,11 @@ img {
   background: #CC3D3D;
   cursor: pointer;
 }
+@media (max-width: 63.9375em) {
+  .download h1 {
+    font-size: 0.75rem;
+  }
+}
 .text_container {
   position: absolute;
   bottom: 0;
