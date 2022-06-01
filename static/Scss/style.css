@@ -127,7 +127,6 @@
 }
 .text_container h1, .text_container p {
   font-size: 1vw;
-  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
