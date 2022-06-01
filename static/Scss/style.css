@@ -37,7 +37,13 @@
   width: 80%;
   position: relative;
 }
-
+.book_card img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 @media (max-width: 40em) {
   .book_card {
     max-height: 18rem;
