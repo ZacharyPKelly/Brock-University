@@ -54,10 +54,11 @@
         {% for item in information %}
             {% if item.type == 'book' %}
                 <div class="book_card" >
-                    <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
-                        {% if item.image == '' %}
-                            <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
-                        {% endif %} 
+                    {% if item.image == '' %}
+                        <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+                    {% else %}
+                        <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
+                    {% endif %} 
                     <a href="{{ url_for('static', filename= item.file) }}" target="_blank">
                         <div class="text_container">
                             <h1> {{ item.name }} </h1>
@@ -73,10 +74,11 @@
             {% endif %}
             {% if item.type == 'notebook' %}
                 <div class="book_card" >
-                    <img src= "{{ url_for('static', filename= item.image) }}" alt="logo">
-                        {% if item.image == '' %}
-                            <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
-                        {% endif %}    
+                    {% if item.image == '' %}
+                        <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+                    {% else %}
+                        <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
+                    {% endif %} 
                     <a href="https://nbviewer.org/urls/mint-ed.me/static/{{item.file}}" target="_blank">
                         <div class="text_container">
                             <h1> {{ item.name }} </h1>
