@@ -2,7 +2,14 @@
   "Instructions": [
     {
       "Instruction": "Here you can find instructions on how to add a juypter book or notebook to the website!",
-      "How to add a file": "In the static folder you will find a "
+      "How to add a file": "In the static folder you will find the books folder and within there you will find folders for Notebooks, Books, and zipped Books.",
+      "File 1":            "Juypter Books that are being added need to have both the unzipped and zipped version added to the appropriate folder, Notebooks just need the single ipynb file added.",
+      "File 2":            "You can just find the file on your computer and drag and drop the file into the appropriate folder",
+      "File 3":            "Make sure your files added are named appropriately and that there are no books/notebooks that share then title you have choosen.",
+      "File 4":            "If you have an image you would like to be displayed for the book card, the Img folder can be found in the static folder as well, same drag and drop principle applies.",
+      "File 5":            "It is recomended that you use SVG images as opposed to png/jpg to avoid compression and stretching images.",
+      "Break 1": "",
+      "Adding file to json": "Once all your files are placed correctly, they will need to be added to this json file." 
     }
   ],
   "Physics": [
@@ -10,8 +17,8 @@
       "file": "books/juypterBooks/testBook/_build/html/index.html",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
-      "name": "Test Jupyter Book",
-      "descript": "Juypter Book for testing",
+      "name": "Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book",
+      "descript": "Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing",
       "image": "Img/one.svg"
     },
     {
