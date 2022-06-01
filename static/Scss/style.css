@@ -124,6 +124,8 @@
   bottom: 0;
   padding: 0.25rem;
   margin: 0 0 0.25rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .text_container h1, .text_container p {
   font-size: 1vw;
