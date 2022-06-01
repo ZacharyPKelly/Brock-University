@@ -124,12 +124,12 @@
   bottom: 0;
   padding: 0.25rem;
   margin: 0 0 0.25rem;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .text_container h1, .text_container p {
   font-size: 1vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 @media (max-width: 63.9375em) {
   .text_container h1, .text_container p {
