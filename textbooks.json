@@ -1,32 +1,13 @@
 {
   "Instructions": [
     {
-      "Instruction": "Here you can find instructions on how to add a juypter book or notebook to the website!"
-    }
-  ],
-  "Biological Science": [
-    {
-      "file": "",
-      "zip": "",
-      "type": "",
-      "name": "Biological Science",
-      "descript": "Biological Science Book",
-      "image": ""
-    }
-  ],
-  "Chemistry": [
-    {
-      "file": "",
-      "zip": "",
-      "type": "",
-      "name": "Chemistry One",
-      "descript": "Chemistry One Book",
-      "image": ""
+      "Instruction": "Here you can find instructions on how to add a juypter book or notebook to the website!",
+      "How to add a file": "In the static folder you will find a "
     }
   ],
   "Physics": [
     {
-      "file": "books/CreateBook/juypterBooks/testBook/index.html",
+      "file": "books/juypterBooks/testBook/_build/html/index.html",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
@@ -34,7 +15,7 @@
       "image": "Img/one.svg"
     },
     {
-      "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
+      "file": "books/juypterNotebooks/testOne.ipynb",
       "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
@@ -42,7 +23,7 @@
       "image": "Img/two.svg"
     },
     {
-      "file": "books/CreateBook/juypterNotebooks/testTwo.ipynb",
+      "file": "books/juypterNotebooks/testTwo.ipynb",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "notebook",
       "name": "Test Notebook2",
@@ -268,22 +249,42 @@
   ],
   "Mathematics": [
     {
-      "file": "books/CreateBook/juypterBooks/testBook/index.html",
+      "file": "books/juypterBooks/testBook/_build/html/index.html",
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
-      "descript": "Juypter Book for testing",
+      "descript": "Juypter Book For Testing",
       "image": "Img/testDeer.jpg"
     }
   ],
   "Computer Science": [
     {
-      "file": "books/CreateBook/juypterNotebooks/testOne.ipynb",
+      "file": "books/juypterNotebooks/testOne.ipynb",
       "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
-      "descript": "Notebook for testing",
+      "descript": "Notebook For Testing",
       "image": "Img/testHorse.jpg"
+    }
+  ],
+  "Chemistry": [
+    {
+      "file": "books/juypterBooks/testBook2/_build/html/index.html",
+      "zip": "books/zippedJuypterBooks/testBook2.zip",
+      "type": "book",
+      "name": "Test Juypter Book 2",
+      "descript": "Juypter Book For Testing",
+      "image": ""
+    }
+  ],
+  "Biological Science": [
+    {
+      "file": "",
+      "zip": "",
+      "type": "",
+      "name": "Biological Science",
+      "descript": "Biological Science Book",
+      "image": ""
     }
   ],
   "E&E Engineering": [
