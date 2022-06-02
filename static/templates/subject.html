@@ -58,11 +58,13 @@
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
                         <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
-                    {% endif %}
-                    <div class="text_container">
-                        <h1> {{ item.name }} </h1>
-                        <p>{{ item.descript }}</p>
-                    </div>
+                    {% endif %} 
+                    <a href="{{ url_for('static', filename= item.file) }}" target="_blank">
+                        <div class="text_container">
+                            <h1> {{ item.name }} </h1>
+                            <p>{{ item.descript }}</p>
+                        </div>
+                    </a>
                     <a href="{{ url_for('static', filename= item.zip) }}" target="_blank">
                         <div class="download" >
                             <h1>DOWNLOAD</h1>
