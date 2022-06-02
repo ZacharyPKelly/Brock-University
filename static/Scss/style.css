@@ -117,6 +117,27 @@
     font-size: 0.75rem;
   }
 }
+.information {
+  position: absolute;
+  float: right;
+  border: #8b8b8bec;
+  border-style: solid;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  top: 1rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information h1 {
+  font-size: 1vw;
+}
+.information:hover {
+  background: #3c76d9;
+  cursor: pointer;
+}
 .text_container {
   position: absolute;
   bottom: 0;
