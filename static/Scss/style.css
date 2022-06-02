@@ -91,14 +91,13 @@
 
 .download {
   position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  float: left;
   background: #ffeaea;
   border: #8b8b8bec;
   border-style: solid;
   border-radius: 8px;
   color: #020202;
-  width: 80%;
+  width: 40%;
   height: 2rem;
   top: 1rem;
   text-align: center;
