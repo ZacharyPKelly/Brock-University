@@ -36,8 +36,10 @@
   height: 30rem;
   width: 80%;
   position: relative;
+  display: block;
   white-space: nowrap;
   overflow: hidden;
+  text-overflow: ellipsis;
 }
 .book_card img {
   width: 80%;
@@ -125,10 +127,7 @@
   position: absolute;
   bottom: 0;
   padding: 0.25rem;
-  margin: 0 0 0.25rem;
-  
-  text-overflow: ellipsis;
-  
+  margin: 0 0 0.25rem;  
 }
 .text_container h1, .text_container p {
   font-size: 1vw;
