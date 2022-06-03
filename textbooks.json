@@ -19,20 +19,20 @@
   ],
   "Physics": [
     {
-      "file": "books/juypterBooks/testBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/testBook.zip",
-      "type": "book",
-      "name": "Test Jupyter Book",
-      "descript": "Juypter Book for testing This is the first one",
-      "image": "Img/one.svg"
-    },
-    {
       "file": "books/juypterNotebooks/testOne.ipynb",
       "zip": "",
       "type": "notebook",
       "name": "Test Notebook",
       "descript": "Notebook for testing",
       "image": "Img/two.svg"
+    },
+    {
+      "file": "books/juypterBooks/testBook/_build/html/index.html",
+      "zip": "books/zippedJuypterBooks/testBook.zip",
+      "type": "book",
+      "name": "Test Jupyter Book",
+      "descript": "Juypter Book for testing This is the first one",
+      "image": "Img/one.svg"
     },
     {
       "file": "books/juypterNotebooks/testTwo.ipynb",
