@@ -148,7 +148,8 @@
   position: fixed;
   width: 600px;
   left: 50%;
-  transform: translateX(-50%);
+  top: 50%;
+  transform: translate(-50%);
   height: 600px;
   background-color: #8b8b8bec;
   visibility: hidden;
