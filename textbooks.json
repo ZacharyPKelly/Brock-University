@@ -23,7 +23,7 @@
       "zip": "books/zippedJuypterBooks/testBook.zip",
       "type": "book",
       "name": "Test Jupyter Book",
-      "descript": "Juypter Book for testing",
+      "descript": "Juypter Book for testing This is the first one",
       "image": "Img/one.svg"
     },
     {
