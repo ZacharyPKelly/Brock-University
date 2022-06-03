@@ -86,9 +86,9 @@
                     </div>
                 </div>
             {% endif %}
-            {% if item.type == 'notebook' %} <!--Links for books and notebooks are different so a distinction is needed-->
+            {% if item.type == 'notebook' %}
                 <div class="book_card" >
-                    {% if item.image == '' %} <!--If there is no image applies the eswatini logo as the image-->
+                    {% if item.image == '' %}
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
                         <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
@@ -104,7 +104,7 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="#modal"> <!--Popup containing the Juypter Notebooks title and description-->
+                    <a href="#modal">
                         <div class="information" >
                             <h1>i</h1>
                         </div>
@@ -116,8 +116,7 @@
                             <div class="exit_modal">
                                 <h1>CLOSE</h1>
                             </div>
-                        </a>    
-                    </div>   
+                        </a>  
                     </div>
                 </div>
             {% endif %}
