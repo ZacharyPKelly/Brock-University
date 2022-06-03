@@ -52,9 +52,9 @@
     </div>
     <div class="book_cards">
         {% for item in information %}
-            {% if item.type == 'book' %}
+            {% if item.type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
                 <div class="book_card" >
-                    {% if item.image == '' %}
+                    {% if item.image == '' %} <!--If there is no image applies the eswatini logo as the image-->
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
                         <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
@@ -70,12 +70,12 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="#modal">
+                    <a href="#modal"> <!--Popup containing the Juypter Books title and description-->
                         <div class="information" >
                             <h1>i</h1>
                         </div>
                     </a>
-                    <div class="modal">
+                    <div id="modal">
                         <h1>{{ item.name }}</h1>
                         <p>{{ item.descript }}</p>
                         <a href="javascript:history.back()">
@@ -86,9 +86,9 @@
                     </div>
                 </div>
             {% endif %}
-            {% if item.type == 'notebook' %}
+            {% if item.type == 'notebook' %} <!--Links for books and notebooks are different so a distinction is needed-->
                 <div class="book_card" >
-                    {% if item.image == '' %}
+                    {% if item.image == '' %} <!--If there is no image applies the eswatini logo as the image-->
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
                         <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
@@ -104,7 +104,7 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="#modal">
+                    <a href="#modal"> <!--Popup containing the Juypter Notebooks title and description-->
                         <div class="information" >
                             <h1>i</h1>
                         </div>
