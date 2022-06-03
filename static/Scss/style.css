@@ -119,6 +119,7 @@
 }
 .information {
   float: right;
+  background: #748ef7;
   border: #8b8b8bec;
   border-style: solid;
   border-radius: 50%;
@@ -134,7 +135,7 @@
   font-size: 1vw;
 }
 .information:hover {
-  background: #5eabee;
+  background: #1b46f6;
   cursor: pointer;
 }
 @media (max-width: 63.9375em) {
