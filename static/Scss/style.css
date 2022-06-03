@@ -187,6 +187,13 @@
   height: 2rem;
   width: 25%;
 }
+.exit_modal h1 {
+  font-size: 1vw;
+}
+.exit_modal:hover {
+  background: #CC3D3D;
+  cursor: pointer;
+}
 .text_container {
   position: absolute;
   bottom: 0;
