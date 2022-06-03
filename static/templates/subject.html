@@ -93,8 +93,16 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <div class="information" >
-                        <h1>i</h1>
+                    <a href="{{ url_for('static', filename= item.file) }}" target="_blank">
+                        <div class="information" >
+                            <h1>i</h1>
+                        </div>
+                    </a>
+                    <div id="modal">
+                        <h1>Did this work?</h1>
+                        <div class="download">
+                            <a href="/subject"></a>
+                        </div>
                     </div>
                 </div>
             {% endif %}

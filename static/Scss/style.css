@@ -137,6 +137,31 @@
   background: #3c76d9;
   cursor: pointer;
 }
+@media (max-width: 63.9375em) {
+  .information h1 {
+    font-size: 0.75rem;
+  }
+}
+#modal {
+  text-align: center;
+  color: #020202;
+  position: fixed;
+  width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 600px;
+  background-color: #8b8b8bec;
+  visibility: hidden;
+  z-index: 100;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+#modal:target {
+  visibility: visible;
+  pointer-events: auto;
+  opacity: 1;
+}
 .text_container {
   position: absolute;
   bottom: 0;
