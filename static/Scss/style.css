@@ -153,6 +153,7 @@
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   height: 600px;
+  background-color: #ffffff;
   border: #000000;
   border-style: solid;
   border-radius: 8px;
@@ -168,20 +169,23 @@
   opacity: 1;
 }
 .exit_modal {
+  position: absolute;
   text-align: center;
   color: #020202;
   background: #ffeaea;
   border: #8b8b8bec;
   border-style: solid;
   border-radius: 8px;
-  bottom: 1rem;
+  bottom: 0rem;
+  padding: 1rem;
+  margin: 0 0 1rem;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   align-items: center;
   justify-content: center;
   height: 2rem;
-  width: 2rem;
+  width: 25%;
 }
 .text_container {
   position: absolute;
