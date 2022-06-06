@@ -80,6 +80,9 @@ def openTextBook(file):
 def health():
     return ""
 
+@app.route("/book")
+def openAbout():
+    return render_template("book.html")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
