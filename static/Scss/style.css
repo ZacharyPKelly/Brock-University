@@ -208,7 +208,7 @@
   backdrop-filter: blur(3px);
   z-index: 5;
 }
-.hidden{
+.hidden {
   display: none;
 }
 .text_container {
