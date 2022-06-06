@@ -80,7 +80,7 @@ def openTextBook(file):
 def health():
     return ""
 
-@app.route("/subject/<file>/book")
+@app.route("/book")
 def openBook():
     return render_template("book.html")
 
