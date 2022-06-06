@@ -70,20 +70,6 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="#modal"> <!--Popup containing the Juypter Books title and description-->
-                        <div class="information" >
-                            <h1>i</h1>
-                        </div>
-                    </a>
-                    <div id="modal">
-                        <h1>{{ item.name }}</h1>
-                        <p>{{ item.descript }}</p>
-                        <a href="javascript:history.back()">
-                            <div class="exit_modal">
-                                <h1>CLOSE</h1>
-                            </div>
-                        </a>    
-                    </div>
                 </div>
             {% endif %}
             {% if item.type == 'notebook' %}
@@ -104,12 +90,7 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="#modal">
-                        <div class="information" >
-                            <h1>i</h1>
-                        </div>
-                    </a>
-                    <div id="modal">
+                    <div id="modal" id="modal1">
                         <h1>{{ item.name }}</h1>
                         <p>{{ item.descript }}</p>
                         <a href="javascript:history.back()">
@@ -124,6 +105,14 @@
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/modal.js') }}"></script>
+    <script>
+        function showmodal()
+        {
+            modal('modal1'); //show
+            modaloff('modal1'); //close
+        }
+    </script>
 
 </body>
 
