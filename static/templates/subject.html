@@ -73,12 +73,6 @@
                     <button class="information">
                         <h1>i</h1>
                     </button>
-                    <div class="modal hidden">
-                        <button class="exit_modal">CLOSE</button>
-                        <h1> {{ item.name }} </h1>
-                        <p>{{ item.descript }}</p>
-                    </div>
-                    <div class="overlay hidden"></div>
                 </div>
             {% endif %}
             {% if item.type == 'notebook' %}
@@ -99,27 +93,15 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="#modal">
-                        <div class="information" >
-                            <h1>i</h1>
-                        </div>
-                    </a>
-                    <div id="modal">
-                        <h1>{{ item.name }}</h1>
-                        <p>{{ item.descript }}</p>
-                        <a href="javascript:history.back()">
-                            <div class="exit_modal">
-                                <h1>CLOSE</h1>
-                            </div>
-                        </a>  
-                    </div>
+                    <button class="information">
+                        <h1>i</h1>
+                    </button>
                 </div>
             {% endif %}
         {% endfor %}
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
-    <script src="{{ url_for('static', filename='js/modal.js') }}"></script>
 
 </body>
 
