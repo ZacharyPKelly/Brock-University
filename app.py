@@ -82,7 +82,7 @@ def health():
 
 @app.route("/book")
 def openBook():
-    return render_template("book.html", name=item.name, descript=item.descript, image=item.image)
+    return render_template("book.html")
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
