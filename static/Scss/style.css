@@ -208,6 +208,9 @@
   backdrop-filter: blur(3px);
   z-index: 5;
 }
+.hidden{
+  display: none;
+}
 .text_container {
   position: absolute;
   bottom: 0;
