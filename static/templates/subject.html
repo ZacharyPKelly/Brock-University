@@ -76,7 +76,7 @@
                 </div>
             {% endif %}
             {% if item.type == 'notebook' %}
-                <div class="book_card"  id="{{forloop.counter0}}">
+                <div class="book_card">
                     {% if item.image == '' %}
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
