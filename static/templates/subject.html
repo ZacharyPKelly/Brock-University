@@ -70,7 +70,7 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <div class="information">
+                    <div class="information" id="{{ item }}">
                         <h1>i</h1>
                     </div>
                 {% endif %}
@@ -91,7 +91,7 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <div class="information">
+                    <div class="information" id="{{ item }}">
                         <h1>i</h1>
                     </div>
                 {% endif %}
@@ -107,7 +107,6 @@
 
         information.forEach(function (subject) {
             subject.addEventListener("click", function () {
-                var item = '{{ item }}'
                 let link = "/book"
                 window.open(link, "_self")
             })
