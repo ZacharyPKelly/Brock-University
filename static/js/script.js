@@ -6,6 +6,8 @@ const fadeElems = document.querySelectorAll(".has-fade")
 
 const textbookPage = document.querySelectorAll(".subject_card")
 
+const bookCards = document.querySelectorAll(".book_card")
+
 burger.addEventListener("click", function () {
     body.classList.remove('noscroll')
     if (header.classList.contains("open")) {
