@@ -84,25 +84,25 @@ def health():
 def openBook(file):
 
     if 'bio' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
     elif 'chem' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
     elif 'phy' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
     elif 'cs' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
     elif 'math' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
     elif 'eeeng' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
     elif 'gesp' in file:
-        return render_template("book.html")
+        return render_template("book.html", files=file)
 
 
 if __name__ == '__main__':
