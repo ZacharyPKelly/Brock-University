@@ -52,7 +52,7 @@
     </div>
     <div class="book_cards" id ="{{ subject }}">
         {% for item in information %}
-            <div class="book_card" id="{{forloop.counter0}}">    
+            <div class="book_card" id="{{ forloop.counter0 }}">    
                 {% if item.type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
                     {% if item.image == '' %} <!--If there is no image applies the eswatini logo as the image-->
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
