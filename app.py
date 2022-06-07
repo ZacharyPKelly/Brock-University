@@ -80,7 +80,7 @@ def openTextBook(file):
 def health():
     return ""
 
-@app.route("/book/<name>")
+@app.route("/book/<name>", methods = ['POST', 'GET'])
 def openBook(name):
     jsonFile = open("textbooks.json")
     txtBooks = json.load(jsonFile)
