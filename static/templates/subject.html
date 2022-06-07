@@ -105,10 +105,10 @@
         const bookCards = document.querySelectorAll(".books_cards")
         const information = document.querySelectorAll(".information")
 
-        information.forEach(function (subject) {
+        information.forEach(function (infoButton) {
             subject.addEventListener("click", function () {
-                let subjectText = subject.id
-                let link = "/book"
+                let infoText = infoButton.id
+                let link = "book/" + infoText
                 window.open(link, "_self")
             })
         })
