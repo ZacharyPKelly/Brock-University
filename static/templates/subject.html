@@ -70,11 +70,9 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="/book">
-                        <div class="information" id="{{forloop.parentloop.counter}}">
-                            <h1>i</h1>
-                        </div>
-                    </a>
+                    <div class="information" id="{{forloop.counter0}}">
+                        <h1>i</h1>
+                    </div>
                 </div>
             {% endif %}
             {% if item.type == 'notebook' %}
@@ -95,11 +93,9 @@
                             <h1>DOWNLOAD</h1>
                         </div>
                     </a>
-                    <a href="/book">
-                        <div class="information" id="{{forloop.parentloop.counter}}">
-                            <h1>i</h1>
-                        </div>
-                    </a>
+                    <div class="information" id="{{forloop.counter0}}">
+                        <h1>i</h1>
+                    </div>
                 </div>
             {% endif %}
         {% endfor %}
