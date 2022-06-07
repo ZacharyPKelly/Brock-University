@@ -83,25 +83,25 @@ def health():
 @app.route("/book/<file>")
 def openBook(file):
     if 'bio' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
     elif 'chem' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
     elif 'phy' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
     elif 'cs' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
     elif 'math' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
     elif 'eeeng' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
     elif 'gesp' in file:
-        return render_template("subject.html")
+        return render_template("book.html")
 
 
 if __name__ == '__main__':
