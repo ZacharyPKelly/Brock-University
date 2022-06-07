@@ -52,8 +52,8 @@
     </div>
     <div class="book_cards" id ="{{ subject }}">
         {% for item in information %}
-            {% if item.type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
-                <div class="book_card"  id="{{forloop.counter0}}">
+            <div class="book_card">    
+                {% if item.type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
                     {% if item.image == '' %} <!--If there is no image applies the eswatini logo as the image-->
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
@@ -73,10 +73,8 @@
                     <div class="information">
                         <h1>i</h1>
                     </div>
-                </div>
-            {% endif %}
-            {% if item.type == 'notebook' %}
-                <div class="book_card">
+                {% endif %}
+                {% if item.type == 'notebook' %}
                     {% if item.image == '' %}
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
@@ -96,8 +94,8 @@
                     <div class="information">
                         <h1>i</h1>
                     </div>
-                </div>
-            {% endif %}
+                {% endif %}
+            </div>
         {% endfor %}
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
