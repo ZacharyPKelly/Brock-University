@@ -5,7 +5,7 @@ const overlay = document.querySelector(".overlay_set")
 const fadeElems = document.querySelectorAll(".has-fade")
 
 const textbookPage = document.querySelectorAll(".subject_card")
-
+s
 burger.addEventListener("click", function () {
     body.classList.remove('noscroll')
     if (header.classList.contains("open")) {

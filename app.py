@@ -82,9 +82,6 @@ def health():
 
 @app.route("/book/<file>")
 def openBook(file):
-    book = file[0]
-    zip = file[1]
-    type
     return render_template("book.html")
 
 if __name__ == '__main__':
