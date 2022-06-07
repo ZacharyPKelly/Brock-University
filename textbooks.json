@@ -9,7 +9,7 @@
       "Filler 4":      "If you have an image you would like to be displayed for the book card, the Img folder can be found in the static folder as well, same drag and drop principle applies.",
       "Filler 5":      "It is recomended that you use SVG images as opposed to png/jpg to avoid compression and stretching images.",
       "Break 1":       "",
-      "Add to json":   "Once all your files are placed correctly they will need to be added to this json file.",
+      "Add to json":   "Once all your files are placed in the correct folders they will need to be added to this json file.",
       "Filler 6":      "",
       "Filler 7":      "",
       "Filler 8":      "",
