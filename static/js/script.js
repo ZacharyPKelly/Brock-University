@@ -6,9 +6,6 @@ const fadeElems = document.querySelectorAll(".has-fade")
 
 const textbookPage = document.querySelectorAll(".subject_card")
 
-const bookCards = document.querySelectorAll(".books_cards")
-const information = document.querySelectorAll(".information")
-
 burger.addEventListener("click", function () {
     body.classList.remove('noscroll')
     if (header.classList.contains("open")) {
@@ -35,14 +32,6 @@ textbookPage.forEach(function (subject) {
     subject.addEventListener("click", function () {
         let subjectText = subject.id
         let link = "subject/" + subjectText
-        window.open(link, "_self")
-    })
-
-})
-
-information.forEach(function (subject) {
-    subject.addEventListener("click", function () {
-        let link = "/book"
         window.open(link, "_self")
     })
 
