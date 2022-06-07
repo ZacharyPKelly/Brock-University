@@ -80,9 +80,9 @@ def openTextBook(file):
 def health():
     return ""
 
-@app.route("/book/<file>")
+@app.route("/subject/book/<file>")
 def openBook(file):
-    
+
     if 'bio' in file:
         return render_template("book.html")
 
