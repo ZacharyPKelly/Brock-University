@@ -108,7 +108,7 @@
         information.forEach(function (subject) {
             subject.addEventListener("click", function () {
                 let subjectText = subject.id
-                let link = "book/" + item
+                let link = "book/" + subjectText
                 window.open(link, "_self")
             })
         })
