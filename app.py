@@ -82,6 +82,7 @@ def health():
 
 @app.route("/book/<file>")
 def openBook(file):
+    
     if 'bio' in file:
         return render_template("book.html")
 

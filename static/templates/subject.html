@@ -106,7 +106,7 @@
         const information = document.querySelectorAll(".information")
 
         information.forEach(function (infoButton) {
-            subject.addEventListener("click", function () {
+            infoButton.addEventListener("click", function () {
                 let infoText = infoButton.id
                 let link = "book/" + infoText
                 window.open(link, "_self")
