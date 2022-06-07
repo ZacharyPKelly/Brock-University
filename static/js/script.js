@@ -6,7 +6,8 @@ const fadeElems = document.querySelectorAll(".has-fade")
 
 const textbookPage = document.querySelectorAll(".subject_card")
 
-const bookCards = document.querySelectorAll(".book_card")
+const bookCards = document.querySelectorAll(".books_cards")
+const information = document.querySelectorAll(".information")
 
 burger.addEventListener("click", function () {
     body.classList.remove('noscroll')

@@ -50,7 +50,7 @@
             <input type="search" name="query" placeholder="Search here..." id="search-box">
         </form>
     </div>
-    <div class="book_cards">
+    <div class="book_cards" id ="{{ subject }}">
         {% for item in information %}
             {% if item.type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
                 <div class="book_card" >
@@ -71,7 +71,7 @@
                         </div>
                     </a>
                     <a href="/book">
-                        <div class="information" id="{{forloop.counter0}}">
+                        <div class="information">
                             <h1>i</h1>
                         </div>
                     </a>
@@ -96,7 +96,7 @@
                         </div>
                     </a>
                     <a href="/book">
-                        <div class="information" id="{{forloop.counter0}}">
+                        <div class="information">
                             <h1>i</h1>
                         </div>
                     </a>
