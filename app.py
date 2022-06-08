@@ -86,5 +86,5 @@ def openBook():
     txtBooks = json.load(jsonFile)
     jsonFile.close()
 
-    
+    return render_template("book.html")
 
