@@ -38,43 +38,43 @@ def openTextBook(file):
         information = txtBooks['Biological Science']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="Biological Science", information=information, shortcut='bio')
+        return render_template("subject.html", files=files, types=types, subject="Biological Science", information=information, len = len(information), shortcut='bio')
 
     elif 'chem' in file:
         information = txtBooks['Chemistry']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="Chemistry", information=information, shortcut='chem')
+        return render_template("subject.html", files=files, types=types, subject="Chemistry", information=information, len = len(information), shortcut='chem')
 
     elif 'phy' in file:
         information = txtBooks['Physics']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="Physics", information=information, shortcut='phy')
+        return render_template("subject.html", files=files, types=types, subject="Physics", information=information, len = len(information), shortcut='phy')
 
     elif 'cs' in file:
         information = txtBooks['Computer Science']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="Computer Science", information=information, shortcut='cs')
+        return render_template("subject.html", files=files, types=types, subject="Computer Science", information=information, len = len(information), shortcut='cs')
 
     elif 'math' in file:
         information = txtBooks['Mathematics']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="Mathematics", information=information, shortcut='math')
+        return render_template("subject.html", files=files, types=types, subject="Mathematics", information=information, len = len(information), shortcut='math')
 
     elif 'eeeng' in file:
         information = txtBooks['E&E Engineering']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="E&E Engineering", information=information, shortcut='eeeng')
+        return render_template("subject.html", files=files, types=types, subject="E&E Engineering", information=information, len = len(information), shortcut='eeeng')
 
     elif 'gesp' in file:
         information = txtBooks['GESP']
         files = [books['file'] for books in information]
         types = [books['type'] for books in information]
-        return render_template("subject.html", files=files, types=types, subject="GESP", information=information, shortcut='gesp')
+        return render_template("subject.html", files=files, types=types, subject="GESP", information=information, len = len(information), shortcut='gesp')
 
 @app.route("/book")
 def openBook():

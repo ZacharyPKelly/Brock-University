@@ -51,21 +51,21 @@
         </form>
     </div>
     <div class="book_cards" id ="{{ shortcut }}">
-        {% for item in information %}
+        {% for i in range(0, len-1) %}
             <div class="book_card">    
-                {% if item.type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
-                    {% if item.image == '' %} <!--If there is no image applies the eswatini logo as the image-->
+                {% if information[i].type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
+                    {% if information[i].image == '' %} <!--If there is no image applies the eswatini logo as the image-->
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
-                        <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
+                        <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
                     {% endif %} 
-                    <a href="{{ url_for('static', filename= item.file) }}" target="_blank">
+                    <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank">
                         <div class="text_container">
-                            <h1> {{ item.name }} </h1>
-                            <p>{{ item.descript }}</p>
+                            <h1> {{ information[i].name }} </h1>
+                            <p>{{ information[i].descript }}</p>
                         </div>
                     </a>
-                    <a href="{{ url_for('static', filename= item.zip) }}" target="_blank">
+                    <a href="{{ url_for('static', filename= information[i].zip) }}" target="_blank">
                         <div class="download" >
                             <h1>DOWNLOAD</h1>
                         </div>
@@ -74,19 +74,19 @@
                         <h1>i</h1>
                     </div>
                 {% endif %}
-                {% if item.type == 'notebook' %}
-                    {% if item.image == '' %}
+                {% if information[i].type == 'notebook' %}
+                    {% if information[i].image == '' %}
                         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
                     {% else %}
-                        <img src="{{ url_for('static', filename= item.image) }}" alt="logo">
+                        <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
                     {% endif %} 
-                    <a href="https://nbviewer.org/urls/mint-ed.me/static/{{item.file}}" target="_blank">
+                    <a href="https://nbviewer.org/urls/mint-ed.me/static/{{information[i].file}}" target="_blank">
                         <div class="text_container">
-                            <h1> {{ item.name }} </h1>
-                            <p>{{ item.descript }}</p>
+                            <h1> {{ information[i].name }} </h1>
+                            <p>{{ information[i].descript }}</p>
                         </div>
                     </a>
-                    <a href="{{ url_for('static', filename= item.file) }}" target="_blank">
+                    <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank">
                         <div class="download" >
                             <h1>DOWNLOAD</h1>
                         </div>
