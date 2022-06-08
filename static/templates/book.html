@@ -78,10 +78,12 @@
               <h1>DOWNLOAD</h1>
           </div>
         </a>
+      </div>
+      <div class="button_container">
         <h1>HTML</h1>
         <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
           <div class="button_container_button">
-            <h1>HTML</h1>
+            h1>HTML</h1>
           </div>
         </a>
       </div>
@@ -92,6 +94,8 @@
            Class: {{ information.class }}</p>
       </div>
     {% endif %}
+  </div>
+  <div class="description_container">
   </div>
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
   <script src="{{ url_for('static', filename='js/search.js') }}"></script>
