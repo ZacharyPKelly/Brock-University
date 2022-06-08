@@ -147,7 +147,7 @@
   top: 0.5rem;
 }
 .information_container p {
-  float: left;
+  align-items: left; 
   position: relative;
   color: #020202;
   font-size: 0.75rem;
