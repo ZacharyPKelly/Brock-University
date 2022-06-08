@@ -183,7 +183,7 @@
   width: 60%;
   height: 100%;
   float: right;
-  overflow: hidden;
+  overflow: scroll;
   text-overflow: ellipsis;
 }
 .description_container_text h3{
