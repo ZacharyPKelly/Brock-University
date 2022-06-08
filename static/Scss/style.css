@@ -90,8 +90,10 @@
 }
 .button_container h1 {
   color: #020202;
-  left: 50%;
-  transform: translateX(-50%);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
   font-size: 1.5vw;
 }
 .button_container_button{
