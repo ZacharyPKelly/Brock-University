@@ -42,8 +42,8 @@
         <hr class="hide_for_mobile">
     </header>
     <div class="book_title">
-        <h1>{{ subject }}</h1>
-        <h2>Textbooks & Lecture Notes</h2>
+        <h1>{{ subject }}<br>
+            Textbooks & Lecture Notes</h1>
     </div>
     <div class="book_container">
         <form action="" class="search-form" id="search-id" onkeyup="search()">
@@ -101,7 +101,7 @@
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
     <script>
-        
+
         const information = document.querySelectorAll(".information")
 
         information.forEach(function (infoButton, index) {
