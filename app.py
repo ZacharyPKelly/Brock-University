@@ -76,41 +76,39 @@ def openTextBook(file):
         types = [books['type'] for books in information]
         return render_template("subject.html", files=files, types=types, subject="GESP", information=information, len = len(information), shortcut='gesp')
 
-@app.route("/book")
-def openBook():
-    return render_template("book.html")
+@app.route("/book/<subject>/<int:book>")
+def openBook(subject, book):
+    jsonFile = open("textbooks.json")
+    txtBooks = json.load(jsonFile)
+    jsonFile.close()
 
-    # jsonFile = open("textbooks.json")
-    # txtBooks = json.load(jsonFile)
-    # jsonFile.close()
+    if 'bio' in subject:
+        information = txtBooks['Biological Science']
+        return render_template("book.html", information=information[book], shortcut='bio')
 
-    # if 'bio' in name:
-    #     information = txtBooks['Biological Science']
-    #     return render_template("book.html", information=information, shortcut='bio')
+    elif 'chem' in subject:
+        information = txtBooks['Chemistry']
+        return render_template("book.html", information=information[book], shortcut='chem')
 
-    # elif 'chem' in name:
-    #     information = txtBooks['Chemistry']
-    #     return render_template("book.html", information=information, shortcut='chem')
+    elif 'phy' in subject:
+        information = txtBooks['Physics']
+        return render_template("book.html", information=information[book], shortcut='phy')
 
-    # elif 'phy' in name:
-    #     information = txtBooks['Physics']
-    #     return render_template("book.html", information=information, shortcut='phy')
+    elif 'cs' in subject:
+        information = txtBooks['Computer Science']
+        return render_template("book.html", information=information[book], shortcut='cs')
 
-    # elif 'cs' in name:
-    #     information = txtBooks['Computer Science']
-    #     return render_template("book.html", information=information, shortcut='cs')
+    elif 'math' in subject:
+        information = txtBooks['Mathematics']
+        return render_template("book.html", information=information[book], shortcut='math')
 
-    # elif 'math' in name:
-    #     information = txtBooks['Mathematics']
-    #     return render_template("book.html", information=information, shortcut='math')
+    elif 'eeeng' in subject:
+        information = txtBooks['E&E Engineering']
+        return render_template("book.html", information=information[book], shortcut='eeeng')
 
-    # elif 'eeeng' in name:
-    #     information = txtBooks['E&E Engineering']
-    #     return render_template("book.html", information=information, shortcut='eeeng')
-
-    # elif 'gesp' in name:
-    #     information = txtBooks['GESP']
-    #     return render_template("book.html", information=information, shortcut='gesp')
+    elif 'gesp' in subject:
+        information = txtBooks['GESP']
+        return render_template("book.html", information=information[book], shortcut='gesp')
 
 @app.route("/health")
 def health():
