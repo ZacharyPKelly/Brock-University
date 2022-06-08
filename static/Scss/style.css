@@ -162,6 +162,43 @@
   border-style: solid;
   align-items: center;
 }
+.description_container_image {
+  width: 40%;
+  height: 100%;
+  border-top-style: hidden;
+  border-right-style: solid;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-color: #000000;
+  position: relative;
+}
+.description_container_image img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.description_container_text {
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+.description_container_text h3{
+  color: #020202;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description_container_text p{
+  text-align: justify;
+  position: relative;
+  color: #020202;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 1.5rem;
+}
 #search-box {
   margin: 1rem;
   padding: 0.5rem;

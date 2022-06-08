@@ -96,6 +96,17 @@
     {% endif %}
   </div>
   <div class="description_container">
+    <div class="description_container_img">
+      {% if information.image == '' %}
+        <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+      {% else %}
+        <img src="{{ url_for('static', filename= information.image) }}" alt="logo">
+      {% endif %} 
+    </div>
+    <div class="description_container_text">
+      <h3>DESCRIPTION</h3>
+      <p>information.descript</p>
+    </div>
   </div>
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
   <script src="{{ url_for('static', filename='js/search.js') }}"></script>
