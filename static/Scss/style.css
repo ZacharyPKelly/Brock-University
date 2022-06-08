@@ -95,7 +95,7 @@
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
-  border: #000000;
+  border-color: #000000;
   position: relative;
 }
 .button_container h1 {
