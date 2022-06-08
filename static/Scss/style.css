@@ -180,7 +180,7 @@
   transform: translate(-50%, -50%);
 }
 .description_container_text {
-  width: 55%;
+  width: auto;
   height: 100%;
   float: right;
 }
@@ -194,8 +194,6 @@
 .description_container_text p{
   text-align: justify;
   color: #020202;
-  padding-left: 10%;
-  padding-right: 10%;
   font-size: 1.5rem;
 }
 #search-box {
