@@ -96,7 +96,7 @@
     {% endif %}
   </div>
   <div class="description_container">
-    <div class="description_container_img">
+    <div class="description_container_image">
       {% if information.image == '' %}
         <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
       {% else %}
@@ -105,7 +105,7 @@
     </div>
     <div class="description_container_text">
       <h3>DESCRIPTION</h3>
-      <p>information.descript</p>
+      <p>{{ information.descript }}</p>
     </div>
   </div>
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
