@@ -80,36 +80,6 @@ def openTextBook(file):
 def health():
     return ""
 
-@app.route("/book/<name>")
-def openBook(name):
-    jsonFile = open("textbooks.json")
-    txtBooks = json.load(jsonFile)
-    jsonFile.close()
 
-    if 'bio' in name:
-        information = txtBooks['Biological Science']
-        return render_template("book.html", information=information, shortcut='bio')
-
-    elif 'chem' in name:
-        information = txtBooks['Chemistry']
-        return render_template("book.html", information=information, shortcut='chem')
-
-    elif 'phy' in name:
-        information = txtBooks['Physics']
-        return render_template("book.html", information=information, shortcut='phy')
-
-    elif 'cs' in name:
-        information = txtBooks['Computer Science']
-        return render_template("book.html", information=information, shortcut='cs')
-
-    elif 'math' in name:
-        information = txtBooks['Mathematics']
-        return render_template("book.html", information=information, shortcut='math')
-
-    elif 'eeeng' in name:
-        information = txtBooks['E&E Engineering']
-        return render_template("book.html", information=information, shortcut='eeeng')
-
-    elif 'gesp' in name:
-        information = txtBooks['GESP']
-        return render_template("book.html", information=information, shortcut='gesp')
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=8080)
