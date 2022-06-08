@@ -100,6 +100,20 @@
     </div>
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
+    <script>
+
+        const bookCards = document.querySelectorAll(".books_cards")
+        const information = document.querySelectorAll(".information")
+
+        information.forEach(function (infoButton) {
+            infoButton.addEventListener("click", function () {
+                let infoText = infoButton.id
+                let link = "/book"
+                window.open(link, "_self")
+            })
+        })
+
+    </script>
 
 </body>
 
