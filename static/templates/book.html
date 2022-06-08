@@ -43,7 +43,7 @@
     </header>
     <div class="book_title">
       <h1>{{ information.name }}</h1>
-      <h2>{{ information.author }}</h2>
+      <h3> by {{ information.author }}</h3>
   </div>
   <div class="side_container">
     {% if information.type == 'notebook' %}
@@ -63,6 +63,12 @@
           </div>
         </a>
       </div>
+      <div class="information_container">
+        <h1>INFORMATION</h1>
+        <p>Title: {{ information.name }}</p>
+        <p>Author: {{ information.author }}</p>
+        <p>Class: {{ information.class }}</p>
+      </div>
     {% endif %}
     {% if information.type == 'book' %}
       <div class="side_container">
@@ -78,6 +84,12 @@
             <h1>HTML</h1>
           </div>
         </a>
+      </div>
+      <div class="information_container">
+        <h1>INFORMATION</h1>
+        <p>Title: {{ information.name }}</p>
+        <p>Author: {{ information.author }}</p>
+        <p>Class: {{ information.class }}</p>
       </div>
     {% endif %}
   </div>

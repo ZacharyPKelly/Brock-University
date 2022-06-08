@@ -25,6 +25,7 @@
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing This is the first one",
       "author": "Zachary Kelly",
+      "class":"AUCSC 220",
       "image": "Img/one.svg"
     },
     {
@@ -34,6 +35,7 @@
       "name": "Test Notebook",
       "descript": "Notebook for testing",
       "author": "Zachary Kelly",
+      "class":"AUCSC 220",
       "image": "Img/two.svg"
     },
     {
@@ -43,6 +45,7 @@
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
       "author": "Zachary Kelly",
+      "class":"AUCSC 220",
       "image": "Img/three.svg"
     },
     {
@@ -52,6 +55,7 @@
       "name": "Test Card 1",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -61,6 +65,7 @@
       "name": "Test Card 2",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -70,6 +75,7 @@
       "name": "Test Card 3",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -79,6 +85,7 @@
       "name": "Test Card 4",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -88,6 +95,7 @@
       "name": "Test Card 5",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -97,6 +105,7 @@
       "name": "Test Card 6",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -106,6 +115,7 @@
       "name": "Test Card 7",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -115,6 +125,7 @@
       "name": "Test Card 8",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -124,6 +135,7 @@
       "name": "Test Card 9",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -133,6 +145,7 @@
       "name": "Test Card 10",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -142,6 +155,7 @@
       "name": "Test Card 11",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -151,6 +165,7 @@
       "name": "Test Card 12",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -160,6 +175,7 @@
       "name": "Test Card 13",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -169,6 +185,7 @@
       "name": "Test Card 14",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -178,6 +195,7 @@
       "name": "Test Card 15",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -187,6 +205,7 @@
       "name": "Test Card 16",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -196,6 +215,7 @@
       "name": "Test Card 17",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -205,6 +225,7 @@
       "name": "Test Card 18",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -214,6 +235,7 @@
       "name": "Test Card 19",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -223,6 +245,7 @@
       "name": "Test Card 20",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -232,6 +255,7 @@
       "name": "Test Card 21",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -241,6 +265,7 @@
       "name": "Test Card 22",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -250,6 +275,7 @@
       "name": "Test Card 23",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -259,6 +285,7 @@
       "name": "Test Card 24",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -268,6 +295,7 @@
       "name": "Test Card 25",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -277,6 +305,7 @@
       "name": "Test Card 26",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     },
     {
@@ -286,6 +315,7 @@
       "name": "Test Card 27",
       "descript": "Test Card",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     }
   ],
@@ -297,6 +327,7 @@
       "name": "Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book, Test Jupyter Book",
       "descript": "Juypter Book For Testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing, Juypter Book for testing",
       "author": "Zachary Kelly",
+      "class":"",
       "image": "Img/one.svg"
     }
   ],
@@ -308,6 +339,7 @@
       "name": "Test Notebook",
       "descript": "Notebook For Testing",
       "author": "Zachary Kelly",
+      "class":"",
       "image": "Img/testHorse.jpg"
     }
   ],
@@ -319,6 +351,7 @@
       "name": "TESTING INFO PAGE",
       "descript": "TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE TESTING INFO PAGE",
       "author": "Mr. Tester",
+      "class":"",
       "image": "Img/logo.svg"
     }
   ],
@@ -330,6 +363,7 @@
       "name": "Biological Science",
       "descript": "Biological Science Book",
       "author": "Zachary Kelly",
+      "class":"",
       "image": ""
     }
   ],
@@ -341,6 +375,7 @@
       "name": "Test Jupyter Book",
       "descript": "Juypter Book for testing",
       "author": "Zachary Kelly",
+      "class":"",
       "image": "Img/one.svg"
     },
     {
@@ -350,6 +385,7 @@
       "name": "Test Notebook",
       "descript": "Notebook for testing",
       "author": "Zachary Kelly",
+      "class":"",
       "image": "Img/two.svg"
     },
     {
@@ -359,6 +395,7 @@
       "name": "Test Notebook2",
       "descript": "Notebook2 for testing",
       "author": "Zachary Kelly",
+      "class":"",
       "image": "Img/three.svg"
     }
   ],

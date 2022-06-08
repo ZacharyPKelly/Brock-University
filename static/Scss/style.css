@@ -19,6 +19,10 @@
   color: #020202;
   font-size: 3vw;
 }
+.book_title h3 {
+  text-align: center;
+  color: #020202;
+}
 @media (max-width: 63.9375em) {
   .book_title h1, .book_title h2 {
     font-size: 7vw;
@@ -129,6 +133,22 @@
   background: #CC3D3D;
   cursor: pointer;
 }
+.information_container {
+  width: 100%;
+  position: relative;
+}
+.information_container h3 {
+  color: #020202;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0.5rem;
+}
+.information_container p {
+  float: left;
+  position: relative;
+}
 #search-box {
   margin: 1rem;
   padding: 0.5rem;
@@ -137,7 +157,6 @@
   border-radius: 25px;
   border-color: rgba(0, 0, 0, 0.1);
 }
-
 .download {
   position: absolute;
   float: left;
@@ -191,16 +210,6 @@
   .information h1 {
     font-size: 0.75rem;
   }
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(3px);
-  z-index: 5;
 }
 .hidden {
   display: none;
