@@ -82,9 +82,6 @@ def health():
 
 @app.route("/book")
 def openBook():
-    jsonFile = open("textbooks.json")
-    txtBooks = json.load(jsonFile)
-    jsonFile.close()
 
     return render_template("book.html")
 
