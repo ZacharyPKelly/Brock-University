@@ -45,34 +45,40 @@
       <h1>{{ information.name }}</h1>
       <h2>{{ information.author }}</h2>
   </div>
-  <div class="button_container">
+  <div class="side_container">
     {% if information.type == 'notebook' %}
-      <h1>DOWNLOAD</h1>
-      <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
-        <div class="button_container_button" >
-            <h1>DOWNLOAD</h1>
-        </div>
-      </a>
-      <h1>HTML</h1>
-      <a href="https://nbviewer.org/urls/mint-ed.me/static/{{information.file}}" target="_blank">
-        <div class="button_container_button">
-          <h1>HTML</h1>
-        </div>
-      </a>
+      <div class="button_container">
+        <h1>DOWNLOAD</h1>
+        <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
+          <div class="button_container_button" >
+              <h1>DOWNLOAD</h1>
+          </div>
+        </a>
+      </div>
+      <div class="button_container">
+        <h1>HTML</h1>
+        <a href="https://nbviewer.org/urls/mint-ed.me/static/{{information.file}}" target="_blank">
+          <div class="button_container_button">
+            <h1>HTML</h1>
+          </div>
+        </a>
+      </div>
     {% endif %}
     {% if information.type == 'book' %}
-      <h1>DOWNLOAD</h1>
-      <a href="{{ url_for('static', filename= information.zip) }}" target="_blank">
-        <div class="button_container_button" >
-            <h1>DOWNLOAD</h1>
-        </div>
-      </a>
-      <h1>HTML</h1>
-      <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
-        <div class="button_container_button">
-          <h1>HTML</h1>
-        </div>
-      </a>
+      <div class="side_container">
+        <h1>DOWNLOAD</h1>
+        <a href="{{ url_for('static', filename= information.zip) }}" target="_blank">
+          <div class="button_container_button" >
+              <h1>DOWNLOAD</h1>
+          </div>
+        </a>
+        <h1>HTML</h1>
+        <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
+          <div class="button_container_button">
+            <h1>HTML</h1>
+          </div>
+        </a>
+      </div>
     {% endif %}
   </div>
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>

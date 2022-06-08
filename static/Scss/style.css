@@ -79,7 +79,7 @@
     font-size: 1rem;
   }
 }
-.button_container {
+.side_container {
   width: 20%;
   height: 40rem;
   float: left;
@@ -87,6 +87,13 @@
   border: #000000;
   border-style: solid;
   align-items: center;
+}
+.button_container {
+  width: 100%;
+  height: 25%;
+  border-bottom-style: solid;
+  border-bottom: #000000;
+  position: relative;
 }
 .button_container h1 {
   color: #020202;
