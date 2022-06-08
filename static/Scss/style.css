@@ -150,7 +150,8 @@
   align-items: left; 
   position: relative;
   color: #020202;
-  font-size: 0.75rem;
+  padding-left: 10%;
+  font-size: 1.5rem;
 }
 #search-box {
   margin: 1rem;
