@@ -101,14 +101,13 @@
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
     <script>
-
-        const bookCard = document.querySelectorAll(".book_card")
+        
         const information = document.querySelectorAll(".information")
 
-        information.forEach(function (infoButton, bookCard) {
+        information.forEach(function (infoButton, index) {
             infoButton.addEventListener("click", function () {
                 let subject = infoButton.id
-                let book = bookCard.id
+                let book = index
                 let link = "/book/" + subject + "/" + book
                 window.open(link, "_self")
             })
