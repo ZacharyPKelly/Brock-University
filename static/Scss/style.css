@@ -182,6 +182,7 @@
 .description_container_text {
   width: 55%;
   height: 100%;
+  float: right;
   position: relative;
 }
 .description_container_text h3{
