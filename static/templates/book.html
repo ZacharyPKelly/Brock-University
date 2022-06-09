@@ -43,7 +43,6 @@
     </header>
     <div class="book_title">
       <h1>{{ information.name }}</h1>
-      <h3> by {{ information.author }}</h3>
   </div>
   <div class="side_container">
     {% if information.type == 'notebook' %}
@@ -55,15 +54,15 @@
           </div>
         </a>
       </div>
-      <div class="button_container">
+      <div class="button_container_left">
         <h1>DOWNLOAD</h1>
         <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
           <div class="button_container_button" >
-              <h1>DOWNLOAD</h1>
+              <h3>DOWNLOAD</h3>
           </div>
         </a>
       </div>
-      <div class="button_container">
+      <div class="button_container_right">
         <h1>HTML</h1>
         <a href="https://nbviewer.org/urls/mint-ed.me/static/{{information.file}}" target="_blank">
           <div class="button_container_button">
@@ -86,15 +85,15 @@
           </div>
         </a>
       </div>
-      <div class="button_container">
+      <div class="button_container_left">
         <h1>DOWNLOAD</h1>
         <a href="{{ url_for('static', filename= information.zip) }}" target="_blank">
           <div class="button_container_button" >
-              <h1>DOWNLOAD</h1>
+              <h3>DOWNLOAD</h3>
           </div>
         </a>
       </div>
-      <div class="button_container">
+      <div class="button_container_right">
         <h1>HTML</h1>
         <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
           <div class="button_container_button">

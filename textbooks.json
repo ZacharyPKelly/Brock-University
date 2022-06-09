@@ -20,7 +20,7 @@
 
   "Physics": [
     {
-      "file": "books/juypterBooks/testBook",
+      "file": "books/juypterNotebooks/testOne.ipynb",
       "zip": "",
       "type": "notebook",
       "name": "TESTING INFO PAGE (NOTEBOOK)",
@@ -40,7 +40,6 @@
       "image": "Img/logo.svg"
     }
   ],
-
   "Mathematics": [
     {
       "file": "books/juypterBooks/testBook/_build/html/index.html",
