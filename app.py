@@ -84,31 +84,31 @@ def openBook(subject, book):
 
     if 'bio' in subject:
         information = txtBooks['Biological Science']
-        return render_template("book.html", information=information[book], shortcut='bio')
+        return render_template("book.html", information=information[book], subject="Biological Science", shortcut='bio')
 
     elif 'chem' in subject:
         information = txtBooks['Chemistry']
-        return render_template("book.html", information=information[book], shortcut='chem')
+        return render_template("book.html", information=information[book], subject="Chemistry", shortcut='chem')
 
     elif 'phy' in subject:
         information = txtBooks['Physics']
-        return render_template("book.html", information=information[book], shortcut='phy')
+        return render_template("book.html", information=information[book], subject="Physics", shortcut='phy')
 
     elif 'cs' in subject:
         information = txtBooks['Computer Science']
-        return render_template("book.html", information=information[book], shortcut='cs')
+        return render_template("book.html", information=information[book], subject="Computer Science", shortcut='cs')
 
     elif 'math' in subject:
         information = txtBooks['Mathematics']
-        return render_template("book.html", information=information[book], shortcut='math')
+        return render_template("book.html", information=information[book], subject="Mathematics", shortcut='math')
 
     elif 'eeeng' in subject:
         information = txtBooks['E&E Engineering']
-        return render_template("book.html", information=information[book], shortcut='eeeng')
+        return render_template("book.html", information=information[book], subject="E&E Engineering", shortcut='eeeng')
 
     elif 'gesp' in subject:
         information = txtBooks['GESP']
-        return render_template("book.html", information=information[book], shortcut='gesp')
+        return render_template("book.html", information=information[book], subject="GESP", shortcut='gesp')
 
 @app.route("/health")
 def health():

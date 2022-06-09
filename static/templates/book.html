@@ -48,6 +48,14 @@
   <div class="side_container">
     {% if information.type == 'notebook' %}
       <div class="button_container">
+        <h1>Go back to {{ subject }}</h1>
+        <a href="javascript:history.back()">
+          <div class="goBackButton">
+            <h1>{{ subject }}</h1>
+          </div>
+        </a>
+      </div>
+      <div class="button_container">
         <h1>DOWNLOAD</h1>
         <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
           <div class="button_container_button" >
@@ -65,12 +73,19 @@
       </div>
       <div class="information_container">
         <h3>INFORMATION</h3>
-        <p>Title: {{ information.name }} <br>
-           Author: {{ information.author }} <br>
+        <p>Author: {{ information.author }} <br>
            Class: {{ information.class }}</p>
       </div>
     {% endif %}
     {% if information.type == 'book' %}
+      <div class="button_container">
+        <h1>Go back to {{ subject }}</h1>
+        <a href="javascript:history.back()">
+          <div class="goBackButton">
+            <h1>{{ subject }}</h1>
+          </div>
+        </a>
+      </div>
       <div class="button_container">
         <h1>DOWNLOAD</h1>
         <a href="{{ url_for('static', filename= information.zip) }}" target="_blank">
@@ -89,8 +104,7 @@
       </div>
       <div class="information_container">
         <h3>INFORMATION</h3>
-        <p>Title: {{ information.name }} <br>
-           Author: {{ information.author }} <br>
+        <p>Author: {{ information.author }} <br>
            Class: {{ information.class }}</p>
       </div>
     {% endif %}
