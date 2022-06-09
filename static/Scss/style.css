@@ -133,8 +133,11 @@
   width: 50%;
   height: 25%;
   float: right;
-  outline-style: solid;
-  outline-color: #000000;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  border-color: #000000;
   position: relative;
 }
 .button_container_right h1 {
