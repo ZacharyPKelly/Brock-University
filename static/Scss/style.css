@@ -103,7 +103,7 @@
   border-left-style: hidden;
   border-bottom-style: solid;
   border-color: #000000;
-  position: absolute;
+  position: relative;
 }
 .button_container h1 {
   color: #020202;
