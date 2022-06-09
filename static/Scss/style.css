@@ -117,11 +117,8 @@
   width: 50%;
   height: 25%;
   float: left;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: hidden;
-  border-bottom-style: solid;
-  border-color: #000000;
+  outline-style: solid;
+  outline-color: #000000;
   position: relative;
 }
 .button_container_left h1 {
@@ -136,11 +133,8 @@
   width: 50%;
   height: 25%;
   float: right;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-left-style: solid;
-  border-bottom-style: solid;
-  border-color: #000000;
+  outline-style: solid;
+  outline-color: #000000;
   position: relative;
 }
 .button_container_right h1 {
