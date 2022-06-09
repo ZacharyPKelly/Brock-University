@@ -138,7 +138,7 @@
   float: right;
   border-top-style: hidden;
   border-right-style: hidden;
-  border-left-style: hidden;
+  border-left-style: solid;
   border-bottom-style: solid;
   border-color: #000000;
   position: relative;
