@@ -123,6 +123,7 @@
   outline-color: #000000;
   position: relative;
   display: block;
+  bottom: 0;
 }
 .button_container_left h1 {
   color: #020202;
@@ -143,6 +144,7 @@
   border-color: #000000;
   position: relative;
   display: block;
+  bottom: 0;
 }
 .button_container_right h1 {
   color: #020202;
@@ -177,9 +179,9 @@
 }
 .information_container {
   width: 100%;
-  position: static;
+  height: 50%;
+  position: relative;
   display: flex;
-  bottom: 0;
 }
 .information_container h3 {
   color: #020202;
