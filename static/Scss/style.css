@@ -96,6 +96,22 @@
   align-items: center;
   position: absolute;
 }
+.side_container h3 {
+  color: #020202;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+}
+.side_container p {
+  align-items: left; 
+  position: relative;
+  color: #020202;
+  padding-left: 10%;
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
 .button_container {
   width: 100%;
   height: 50%;
