@@ -180,6 +180,7 @@
   height: 30%;
   position: static;
   display: block;
+  bottom: 0;
 }
 .information_container h3 {
   color: #020202;
