@@ -178,7 +178,7 @@
 .information_container {
   width: 100%;
   height: 30%;
-  position: relative;
+  position: static;
   display: block;
 }
 .information_container h3 {
