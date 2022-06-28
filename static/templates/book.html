@@ -45,9 +45,11 @@
       <h1>{{ information.name }}</h1>
   </div>
   <div class="side_container">
-    <h3>INFORMATION</h3>
-    <p>Author: {{ information.author }} <br>
+    <div class="information_container">
+      <h3>INFORMATION</h3>
+      <p>Author: {{ information.author }} <br>
        Class: {{ information.class }}</p>
+    </div>
     {% if information.type == 'notebook' %}
       <div class="button_container">
         <h1>Go back to {{ subject }}</h1>
