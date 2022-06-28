@@ -95,6 +95,7 @@
   border-style: solid;
   align-items: center;
   position: absolute;
+  flex-direction: column;
   display: flex;
 }
 .side_container h3 {
