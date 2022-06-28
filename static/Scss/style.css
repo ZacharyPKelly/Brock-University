@@ -95,6 +95,7 @@
   border-style: solid;
   align-items: center;
   position: absolute;
+  display: flex;
 }
 .side_container h3 {
   color: #020202;
@@ -132,7 +133,7 @@
 }
 .button_container_left {
   width: 50%;
-  height: 33%;
+  flex-grow: 1;
   float: left;
   outline-style: solid;
   outline-color: #000000;
@@ -148,7 +149,7 @@
 }
 .button_container_right {
   width: 50%;
-  height: 33%;
+  flex-grow: 1;
   float: right;
   border-top-style: hidden;
   border-right-style: hidden;
