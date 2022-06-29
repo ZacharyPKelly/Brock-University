@@ -117,12 +117,12 @@
   width: 100%;
   height: 33%;
   flex-basis: 100%;
-  /* border-top-style: solid;
+  border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
-  border-color: #000000; */
-  /* position: relative; */
+  border-color: #000000;
+  
 }
 .button_container h1 {
   color: #020202;
@@ -136,10 +136,8 @@
   width: 50%;
   height: 33%;
   flex-basis: 50%;
-  /* float: left;
   outline-style: solid;
   outline-color: #000000;
-  position: relative; */
 }
 .button_container_left h1 {
   color: #020202;
@@ -153,13 +151,11 @@
   width: 50%;
   height: 33%;
   flex-basis: 50%;
-  /* float: right;
   border-top-style: hidden;
   border-right-style: hidden;
   border-left-style: hidden;
   border-bottom-style: solid;
   border-color: #000000;
-  position: relative; */
 }
 .button_container_right h1 {
   color: #020202;
@@ -197,8 +193,6 @@
   height: 34%;
   align-items: left;
   flex-basis: 100%;
-  /* float: left;
-  position: relative; */
 }
 .information_container h3 {
   color: #020202;
