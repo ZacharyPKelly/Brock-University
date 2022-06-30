@@ -268,7 +268,14 @@
 }
 @media (max-width: 63.9375em) { 
   .description_container {
-    display: none;
+    width: 70%;
+    height: 30rem;
+    margin: 2rem 2rem 2rem 2rem;
+    border: #000000;
+    border-style: solid;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 } 
 @media (max-width: 63.9375em) {       
