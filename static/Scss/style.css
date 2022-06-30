@@ -270,6 +270,8 @@
   z-index: 1;
 }
 .information_title h1 {
+  text-align: center;
+  color: #020202;
   font-size: 2vw;
 }
 .download {
