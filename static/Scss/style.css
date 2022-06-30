@@ -266,12 +266,12 @@
   color: #020202;
   font-size: 2vw;
 }
-@media (max-width: 63.9375em) { 
+@media (max-width: 40em) { 
   .description_container {
     display: none;
   }
 } 
-@media (max-width: 63.9375em) {       
+@media (max-width: 40em) {       
   .side_container {
     width: 70%;
     height: 30rem;
