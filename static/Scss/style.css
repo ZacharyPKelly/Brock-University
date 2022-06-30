@@ -258,14 +258,6 @@
   padding-right: 5%;
   font-size: 1vw;
 }
-#search-box {
-  margin: 1rem;
-  padding: 0.5rem;
-  width: 90%;
-  height: 3rem;
-  border-radius: 25px;
-  border-color: rgba(0, 0, 0, 0.1);
-}
 .information_title {
   z-index: 1;
 }
@@ -273,6 +265,22 @@
   text-align: center;
   color: #020202;
   font-size: 2vw;
+}
+@media only screen and (max-device-width: 63.9375em) {       
+  .side_container {
+    display: none;
+  }
+  .description_container {
+    display: none;
+  }
+} 
+#search-box {
+  margin: 1rem;
+  padding: 0.5rem;
+  width: 90%;
+  height: 3rem;
+  border-radius: 25px;
+  border-color: rgba(0, 0, 0, 0.1);
 }
 .download {
   position: absolute;
