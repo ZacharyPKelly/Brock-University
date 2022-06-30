@@ -266,6 +266,12 @@
   border-radius: 25px;
   border-color: rgba(0, 0, 0, 0.1);
 }
+.information_title {
+  z-index: 1;
+}
+.information_title h1 {
+  font-size: 2vw;
+}
 .download {
   position: absolute;
   float: left;
