@@ -266,7 +266,7 @@
   color: #020202;
   font-size: 2vw;
 }
-@media only screen and (max-device-width: 63.9375em) {       
+@media (max-device-width: 63.9375em) {       
   .side_container {
     display: none;
   }
