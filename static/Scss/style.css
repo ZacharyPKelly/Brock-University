@@ -265,13 +265,16 @@
   color: #020202;
   font-size: 1.5vw;
 }
+.side_container_mobile {
+  display: none;
+}
 @media (max-width: 40em) { 
   .description_container {
     display: none;
   }
 } 
 @media (max-width: 40em) {       
-  .side_container {
+  .side_container_mobile {
     width: 70%;
     height: 30rem;
     border: #000000;
