@@ -272,7 +272,12 @@
   .description_container {
     display: none;
   }
-} 
+}
+@media (max-width: 40em) { 
+  .side_container {
+    display: none;
+  }
+}  
 @media (max-width: 40em) {       
   .side_container_mobile {
     width: 70%;
