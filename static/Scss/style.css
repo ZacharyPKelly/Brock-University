@@ -286,7 +286,7 @@
     border-style: solid;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    position: static;
     left: 50%;
     transform: translate(-50%, -50%);
   }
