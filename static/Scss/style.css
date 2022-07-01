@@ -287,8 +287,6 @@
     display: flex;
     flex-wrap: wrap;
     position: static;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 }
 @media (max-width: 40em) {
