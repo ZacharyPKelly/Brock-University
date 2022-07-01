@@ -278,7 +278,7 @@
     border-style: solid;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translate(-50%, -50%);
   }
