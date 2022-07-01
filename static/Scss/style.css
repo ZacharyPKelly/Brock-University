@@ -286,7 +286,7 @@
     border-style: solid;
     display: flex;
     flex-wrap: wrap;
-    position: static;
+    position: relative;
   }
 }
 @media (max-width: 40em) {
