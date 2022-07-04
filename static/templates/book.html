@@ -41,10 +41,74 @@
         </div>
         <hr class="hide_for_mobile">
     </header>
+    <div class="side_container_mobile">
+      {% if information.type == 'notebook' %}
+        <div class="button_container">
+          <h1>Go back to {{ subject }}</h1>
+          <a href="javascript:history.back()">
+            <div class="button_container_button">
+              <h1>{{ subject }}</h1>
+            </div>
+          </a>
+        </div>
+        <div class="button_container_left">
+          <h1>DOWNLOAD</h1>
+          <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
+            <div class="button_container_button" >
+                <h1>DOWNLOAD</h1>
+            </div>
+          </a>
+        </div>
+        <div class="button_container_right">
+          <h1>HTML</h1>
+          <a href="https://nbviewer.org/urls/mint-ed.me/static/{{information.file}}" target="_blank">
+            <div class="button_container_button">
+              <h1>HTML</h1>
+            </div>
+          </a>
+        </div>
+        <div class="information_container">
+          <h3>INFORMATION</h3>
+          <p>Author: {{ information.author }} <br>
+           Class: {{ information.class }}</p>
+        </div>
+      {% endif %}
+      {% if information.type == 'book' %}
+        <div class="button_container">
+          <h1>Go back to {{ subject }}</h1>
+          <a href="javascript:history.back()">
+            <div class="button_container_button">
+              <h1>{{ subject }}</h1>
+            </div>
+          </a>
+        </div>
+        <div class="button_container_left">
+          <h1>DOWNLOAD</h1>
+          <a href="{{ url_for('static', filename= information.zip) }}" target="_blank">
+            <div class="button_container_button" >
+                <h1>DOWNLOAD</h1>
+            </div>
+          </a>
+        </div>
+        <div class="button_container_right">
+          <h1>HTML</h1>
+          <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
+            <div class="button_container_button">
+              <h1>HTML</h1>
+            </div>
+          </a>
+        </div>
+        <div class="information_container">
+          <h3>INFORMATION</h3>
+          <p>Author: {{ information.author }} <br>
+           Class: {{ information.class }}</p>
+        </div>
+      {% endif %}
+    </div>
     <div class="information_title">
       <h1>{{ information.name }}</h1>
-  </div>
-  <div class="side_container">
+    </div>
+    <div class="side_container">
     {% if information.type == 'notebook' %}
       <div class="button_container">
         <h1>Go back to {{ subject }}</h1>
@@ -107,8 +171,8 @@
          Class: {{ information.class }}</p>
       </div>
     {% endif %}
-  </div>
-  <div class="description_container">
+    </div>
+    <div class="description_container">
     <div class="description_container_text">
       <h3>DESCRIPTION</h3>
       <p>{{ information.descript }}</p>
@@ -120,71 +184,8 @@
         <img src="{{ url_for('static', filename= information.image) }}" alt="logo">
       {% endif %} 
     </div>
-  </div>
-  <div class="side_container_mobile">
-    {% if information.type == 'notebook' %}
-      <div class="button_container">
-        <h1>Go back to {{ subject }}</h1>
-        <a href="javascript:history.back()">
-          <div class="button_container_button">
-            <h1>{{ subject }}</h1>
-          </div>
-        </a>
-      </div>
-      <div class="button_container_left">
-        <h1>DOWNLOAD</h1>
-        <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
-          <div class="button_container_button" >
-              <h1>DOWNLOAD</h1>
-          </div>
-        </a>
-      </div>
-      <div class="button_container_right">
-        <h1>HTML</h1>
-        <a href="https://nbviewer.org/urls/mint-ed.me/static/{{information.file}}" target="_blank">
-          <div class="button_container_button">
-            <h1>HTML</h1>
-          </div>
-        </a>
-      </div>
-      <div class="information_container">
-        <h3>INFORMATION</h3>
-        <p>Author: {{ information.author }} <br>
-         Class: {{ information.class }}</p>
-      </div>
-    {% endif %}
-    {% if information.type == 'book' %}
-      <div class="button_container">
-        <h1>Go back to {{ subject }}</h1>
-        <a href="javascript:history.back()">
-          <div class="button_container_button">
-            <h1>{{ subject }}</h1>
-          </div>
-        </a>
-      </div>
-      <div class="button_container_left">
-        <h1>DOWNLOAD</h1>
-        <a href="{{ url_for('static', filename= information.zip) }}" target="_blank">
-          <div class="button_container_button" >
-              <h1>DOWNLOAD</h1>
-          </div>
-        </a>
-      </div>
-      <div class="button_container_right">
-        <h1>HTML</h1>
-        <a href="{{ url_for('static', filename= information.file) }}" target="_blank">
-          <div class="button_container_button">
-            <h1>HTML</h1>
-          </div>
-        </a>
-      </div>
-      <div class="information_container">
-        <h3>INFORMATION</h3>
-        <p>Author: {{ information.author }} <br>
-         Class: {{ information.class }}</p>
-      </div>
-    {% endif %}
-  </div>
+    </div>
+  
   <script src="{{ url_for('static', filename='js/script.js') }}"></script>
   <script src="{{ url_for('static', filename='js/search.js') }}"></script>
 
