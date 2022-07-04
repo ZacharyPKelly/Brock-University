@@ -292,6 +292,14 @@
     transform: translate(-50%, -50%);
   }
 }
+@media (max-width: 40em) {       
+  .subject_container_mobile {
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
 @media (max-width: 40em) {
   .information_container {
     width: 100%;
