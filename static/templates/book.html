@@ -41,6 +41,10 @@
         </div>
         <hr class="hide_for_mobile">
     </header>
+    
+    <div class="information_title">
+      <h1>{{ information.name }}</h1>
+    </div>
     <div class="side_container_mobile">
       {% if information.type == 'notebook' %}
         <div class="button_container">
@@ -104,9 +108,6 @@
            Class: {{ information.class }}</p>
         </div>
       {% endif %}
-    </div>
-    <div class="information_title">
-      <h1>{{ information.name }}</h1>
     </div>
     <div class="side_container">
     {% if information.type == 'notebook' %}
