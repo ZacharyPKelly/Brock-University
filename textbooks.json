@@ -342,7 +342,18 @@
     }
   ],
   "Computer Science": [],
-  "Chemistry": [],
+  "Chemistry": [
+    {
+      "file": "books/jupyterNotebooks/phil.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Second Test",
+      "descript": "",
+      "author": "Zack",
+      "class": "AUCSC 220",
+      "image": ""
+    }
+  ],
   "Biological Science": [],
   "E&E Engineering": [],
   "GESP": [
