@@ -341,7 +341,18 @@
       "image": ""
     }
   ],
-  "Computer Science": [],
+  "Computer Science": [
+    {
+      "file": "books/juypterNotebooks/zack.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Test Book",
+      "descript": "",
+      "author": "Zachary Kelly",
+      "class": "AUCSC 220",
+      "image": ""
+    }
+  ],
   "Chemistry": [],
   "Biological Science": [
     {
