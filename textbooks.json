@@ -342,18 +342,7 @@
     }
   ],
   "Computer Science": [],
-  "Chemistry": [
-    {
-      "file": "books/jupyterNotebooks/phil.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Second Test",
-      "descript": "",
-      "author": "Zack",
-      "class": "AUCSC 220",
-      "image": ""
-    }
-  ],
+  "Chemistry": [],
   "Biological Science": [
     {
       "file": "books/juypterNotebooks/phil.ipynb",
@@ -367,16 +356,5 @@
     }
   ],
   "E&E Engineering": [],
-  "GESP": [
-    {
-      "file": "books/jupyterNotebooks/zack.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Test",
-      "descript": "",
-      "author": "Zack",
-      "class": "CS",
-      "image": ""
-    }
-  ]
+  "GESP": []
 }
