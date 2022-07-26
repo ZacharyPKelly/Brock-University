@@ -1,22 +1,4 @@
 {
-  "Instructions": [
-    {
-      "Instruction": "Here you can find instructions on how to add a juypter book or notebook to the website!",
-      "Adding File": "In the static folder you will find the books folder and within there you will find folders for Notebooks, Books, and zipped Books.",
-      "Filler 1": "Juypter Books that are being added need to have both the unzipped and zipped version added to the appropriate folder, Notebooks just need the single ipynb file added.",
-      "Filler 2": "You can just find the file on your computer and drag and drop the file into the appropriate folder",
-      "Filler 3": "Make sure your files added are named appropriately and that there are no books/notebooks that share then title you have choosen.",
-      "Filler 4": "If you have an image you would like to be displayed for the book card, the Img folder can be found in the static folder as well, same drag and drop principle applies.",
-      "Filler 5": "It is recomended that you use SVG images as opposed to png/jpg to avoid compression and stretching images.",
-      "Break 1": "",
-      "Add to json": "Once all your files are placed in the correct folders they will need to be added to this json file.",
-      "Filler 6": "",
-      "Filler 7": "",
-      "Filler 8": "",
-      "Filler 9": "",
-      "Filler 10": ""
-    }
-  ],
   "Physics": [
     {
       "file": "books/juypterNotebooks/testOne.ipynb",
@@ -367,36 +349,5 @@
     }
   ],
   "E&E Engineering": [],
-  "GESP": [
-    {
-      "file": "books/juypterBooks/PhilsTestBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/PhilsTestBook.zip",
-      "type": "notebook",
-      "name": "Zacks Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "AUCSC 220",
-      "image": ""
-    },
-    {
-      "file": "books/juypterBooks/PhilsTestBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/PhilsTestBook.zip",
-      "type": "notebook",
-      "name": "Zacks Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "AUCSC220",
-      "image": ""
-    },
-    {
-      "file": "books/juypterBooks/PhilsTestBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/PhilsTestBook.zip",
-      "type": "notebook",
-      "name": "Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "AUCSC 220",
-      "image": ""
-    }
-  ]
+  "GESP": []
 }
