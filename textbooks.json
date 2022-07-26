@@ -333,6 +333,16 @@
       "author": "Zachary Kelly",
       "class": "AUCSC 220",
       "image": ""
+    },
+    {
+      "file": "books/juypterNotebooks/newTestBook.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "New Test Book",
+      "descript": "",
+      "author": "Zachary Kelly",
+      "class": "Computer Science",
+      "image": ""
     }
   ],
   "Chemistry": [],
