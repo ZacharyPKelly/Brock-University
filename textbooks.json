@@ -354,7 +354,18 @@
       "image": ""
     }
   ],
-  "Biological Science": [],
+  "Biological Science": [
+    {
+      "file": "books/juypterNotebooks/phil.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Test",
+      "descript": "",
+      "author": "Phil",
+      "class": "AUCSC",
+      "image": ""
+    }
+  ],
   "E&E Engineering": [],
   "GESP": [
     {
