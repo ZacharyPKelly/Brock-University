@@ -359,6 +359,16 @@
       "author": "Zachary Kelly",
       "class": "GESP class",
       "image": ""
+    },
+    {
+      "file": "books/juypterNotebooks/zackTest.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Notebook Test",
+      "descript": "",
+      "author": "Zachary Kelly",
+      "class": "AUCSC 220",
+      "image": ""
     }
   ]
 }
