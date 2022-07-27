@@ -338,5 +338,17 @@
       "class": "AUCSC",
       "image": ""
     }
+  ],
+  "": [
+    {
+      "file": "books/juypterBooks/Phil/_build/html/index.html",
+      "zip": "books/zippedJuypterBooks/Phil.zip",
+      "type": "book",
+      "name": "New Test Book",
+      "descript": "",
+      "author": "Zachary Kelly",
+      "class": "AUCSC",
+      "image": ""
+    }
   ]
 }
