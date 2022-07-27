@@ -323,72 +323,9 @@
       "image": ""
     }
   ],
-  "Computer Science": [
-    {
-      "file": "books/juypterNotebooks/zack.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "AUCSC 220",
-      "image": ""
-    },
-    {
-      "file": "books/juypterNotebooks/newTestBook.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "New Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "Computer Science",
-      "image": ""
-    }
-  ],
+  "Computer Science": [],
   "Chemistry": [],
-  "Biological Science": [
-    {
-      "file": "books/juypterNotebooks/phil.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Test",
-      "descript": "",
-      "author": "Phil",
-      "class": "AUCSC",
-      "image": ""
-    }
-  ],
+  "Biological Science": [],
   "E&E Engineering": [],
-  "GESP": [
-    {
-      "file": "books/juypterBooks/PhilsTestBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/PhilsTestBook.zip",
-      "type": "book",
-      "name": "Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "GESP class",
-      "image": ""
-    },
-    {
-      "file": "books/juypterNotebooks/zackTest.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Notebook Test",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "AUCSC 220",
-      "image": ""
-    },
-    {
-      "file": "books/juypterBooks/NewTestBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/NewTestBook.zip",
-      "type": "book",
-      "name": "New Jupyter Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "GESP",
-      "image": ""
-    }
-  ]
+  "GESP": []
 }
