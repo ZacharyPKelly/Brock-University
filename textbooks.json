@@ -327,5 +327,16 @@
   "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
-  "GESP": []
+  "GESP": [
+    {
+      "file": "books/juypterNotebooks/newTestBook.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Test Book",
+      "descript": "First linennSecond Line",
+      "author": "Zachary Kelly",
+      "class": "AUCSC",
+      "image": ""
+    }
+  ]
 }
