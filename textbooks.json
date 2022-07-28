@@ -333,6 +333,16 @@
       "author": "Zachary Kelly",
       "class": "AUCSC",
       "image": ""
+    },
+    {
+      "file": "books/juypterNotebooks/zack.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Second New Test Notebook",
+      "descript": "Test Two",
+      "author": "Zachary F Kelly",
+      "class": "AUHIS",
+      "image": ""
     }
   ],
   "Chemistry": [],
