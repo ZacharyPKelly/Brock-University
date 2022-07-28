@@ -343,6 +343,16 @@
       "author": "Zachary F Kelly",
       "class": "AUHIS",
       "image": ""
+    },
+    {
+      "file": "books/juypterNotebooks/zack.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Test 3",
+      "descript": "e",
+      "author": "Zachary P kelly",
+      "class": "AUMAT",
+      "image": ""
     }
   ],
   "Chemistry": [],
