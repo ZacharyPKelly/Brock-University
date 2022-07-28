@@ -19,16 +19,6 @@
       "author": "Mr. Tester",
       "class": "Test Class",
       "image": "Img/logo.svg"
-    },
-    {
-      "file": "books/juypterBooks/Phil/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/Phil.zip",
-      "type": "book",
-      "name": "New Test Book",
-      "descript": "",
-      "author": "Zachary Kelly",
-      "class": "AUCSC",
-      "image": ""
     }
   ],
   "Mathematics": [
@@ -337,16 +327,5 @@
   "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
-  "GESP": [
-    {
-      "file": "books/juypterNotebooks/newTestBook.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Test Book",
-      "descript": "First linennSecond Line",
-      "author": "Zachary Kelly",
-      "class": "AUCSC",
-      "image": ""
-    }
-  ]
+  "GESP": []
 }
