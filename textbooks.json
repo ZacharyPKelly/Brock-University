@@ -323,7 +323,18 @@
       "image": ""
     }
   ],
-  "Computer Science": [],
+  "Computer Science": [
+    {
+      "file": "books/juypterNotebooks/zack.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "New Test Notebook",
+      "descript": "Test",
+      "author": "Zachary Kelly",
+      "class": "AUCSC",
+      "image": ""
+    }
+  ],
   "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
