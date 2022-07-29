@@ -323,7 +323,18 @@
       "image": ""
     }
   ],
-  "Computer Science": [],
+  "Computer Science": [
+    {
+      "file": "books/juypterBooks/Phil/_build/html/index.html",
+      "zip": "books/zippedJuypterBooks/Phil.zip",
+      "type": "book",
+      "name": "Test Book",
+      "descript": "",
+      "author": "Zachary P Kelly",
+      "class": "AUCSC 400",
+      "image": ""
+    }
+  ],
   "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
