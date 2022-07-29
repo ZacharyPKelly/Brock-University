@@ -323,48 +323,7 @@
       "image": ""
     }
   ],
-  "Computer Science": [
-    {
-      "file": "books/juypterNotebooks/zack.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "New Test Notebook",
-      "descript": "Test",
-      "author": "Zachary Kelly",
-      "class": "AUCSC",
-      "image": ""
-    },
-    {
-      "file": "books/juypterNotebooks/zack.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Second New Test Notebook",
-      "descript": "Test Two",
-      "author": "Zachary F Kelly",
-      "class": "AUHIS",
-      "image": ""
-    },
-    {
-      "file": "books/juypterNotebooks/zack.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Test 3",
-      "descript": "e",
-      "author": "Zachary P kelly",
-      "class": "AUMAT",
-      "image": ""
-    },
-    {
-      "file": "books/juypterNotebooks/zack.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "4th Test book",
-      "descript": "",
-      "author": "Zachary K KElly",
-      "class": "AUCSC 220",
-      "image": ""
-    }
-  ],
+  "Computer Science": [],
   "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
