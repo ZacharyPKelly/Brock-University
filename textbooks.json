@@ -2,7 +2,18 @@
   "Physics": [],
   "Mathematics": [],
   "Computer Science": [],
-  "Chemistry": [],
+  "Chemistry": [
+    {
+      "file": "books/juypterBooks/NewBook/_build/html/index.html",
+      "zip": "books/zippedJuypterBooks/NewBook.zip",
+      "type": "book",
+      "name": "Test Book for Eswatini",
+      "descript": "",
+      "author": "Zachary P Kelly",
+      "class": "AUTEST",
+      "image": ""
+    }
+  ],
   "Biological Science": [],
   "E&E Engineering": [],
   "GESP": []
