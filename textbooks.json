@@ -1,6 +1,17 @@
 {
   "Physics": [],
-  "Mathematics": [],
+  "Mathematics": [
+    {
+      "file": "books/juypterNotebooks/LeastSquareMethod.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Least Square Method",
+      "descript": "Textbook for least square method",
+      "author": "Zachary P Kelly",
+      "class": "AUMAT",
+      "image": ""
+    }
+  ],
   "Computer Science": [],
   "Chemistry": [],
   "Biological Science": [],
