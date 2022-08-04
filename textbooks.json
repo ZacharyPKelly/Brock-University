@@ -1,30 +1,8 @@
 {
   "Physics": [],
-  "Mathematics": [
-    {
-      "file": "books/juypterNotebooks/LeastSquareMethod.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Least Square Method",
-      "descript": "Textbook for least square method",
-      "author": "Zachary P Kelly",
-      "class": "AUMAT",
-      "image": ""
-    }
-  ],
+  "Mathematics": [],
   "Computer Science": [],
-  "Chemistry": [
-    {
-      "file": "books/juypterNotebooks/LeastSquareMethod.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "test replacement",
-      "descript": "test replacement",
-      "author": "Zachary P Kelly",
-      "class": "AUCHEM",
-      "image": ""
-    }
-  ],
+  "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
   "GESP": []
