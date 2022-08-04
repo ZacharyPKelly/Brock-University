@@ -13,7 +13,18 @@
     }
   ],
   "Computer Science": [],
-  "Chemistry": [],
+  "Chemistry": [
+    {
+      "file": "books/juypterNotebooks/LeastSquareMethod.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "test replacement",
+      "descript": "test replacement",
+      "author": "Zachary P Kelly",
+      "class": "AUCHEM",
+      "image": ""
+    }
+  ],
   "Biological Science": [],
   "E&E Engineering": [],
   "GESP": []
