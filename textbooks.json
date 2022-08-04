@@ -3,7 +3,18 @@
   "Mathematics": [],
   "Computer Science": [],
   "Chemistry": [],
-  "Biological Science": [],
+  "Biological Science": [
+    {
+      "file": "books/juypterNotebooks/LeastSquareMethod.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Test",
+      "descript": "Test",
+      "author": "Zack",
+      "class": "AUTEST",
+      "image": ""
+    }
+  ],
   "E&E Engineering": [],
   "GESP": []
 }
