@@ -1,30 +1,8 @@
 {
   "Physics": [],
-  "Mathematics": [
-    {
-      "file": "books/juypterNotebooks/LeastSquareMethod.ipynb",
-      "zip": "",
-      "type": "notebook",
-      "name": "Method Least Squares",
-      "descript": "Textbook for method of least squares",
-      "author": "Zachary P Kelly",
-      "class": "AUMAT 100",
-      "image": ""
-    }
-  ],
+  "Mathematics": [],
   "Computer Science": [],
-  "Chemistry": [
-    {
-      "file": "books/juypterBooks/NewBook/_build/html/index.html",
-      "zip": "books/zippedJuypterBooks/NewBook.zip",
-      "type": "book",
-      "name": "Test Book for Eswatini",
-      "descript": "",
-      "author": "Zachary P Kelly",
-      "class": "AUTEST",
-      "image": ""
-    }
-  ],
+  "Chemistry": [],
   "Biological Science": [],
   "E&E Engineering": [],
   "GESP": []
