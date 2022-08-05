@@ -23,6 +23,16 @@
       "author": "test",
       "class": "test",
       "image": ""
+    },
+    {
+      "file": "books/juypterNotebooks/teset.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "test",
+      "descript": "test",
+      "author": "test",
+      "class": "test",
+      "image": ""
     }
   ],
   "E&E Engineering": [],
