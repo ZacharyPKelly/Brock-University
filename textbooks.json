@@ -35,6 +35,17 @@
       "image": ""
     }
   ],
-  "E&E Engineering": [],
+  "E&E Engineering": [
+    {
+      "file": "books/juypterNotebooks/teset.ipynb",
+      "zip": "",
+      "type": "notebook",
+      "name": "Test",
+      "descript": "Test",
+      "author": "Test",
+      "class": "Test",
+      "image": ""
+    }
+  ],
   "GESP": []
 }
