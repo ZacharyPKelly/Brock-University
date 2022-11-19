@@ -11,7 +11,18 @@
          "image": ""
       }
    ],
-   "Mathematics": [],
+   "Mathematics": [
+      {
+         "file": "books/juypterNotebooks/Riemann_problem_Euler_exact.ipynb",
+         "zip": "",
+         "type": "notebook",
+         "name": "Test",
+         "descript": "Test",
+         "author": "Test",
+         "class": "Test",
+         "image": ""
+      }
+   ],
    "Computer Science": [
       {
          "file": "books/juypterNotebooks/teset.ipynb",
