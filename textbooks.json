@@ -1,5 +1,16 @@
 {
-   "Physics": [],
+   "Physics": [
+      {
+         "file": "books/juypterNotebooks/TEST1.ipynb",
+         "zip": "",
+         "type": "notebook",
+         "name": "Test Notebook",
+         "descript": "Test Notebook to test uploading images",
+         "author": "Zachary P Kelly",
+         "class": "AUCSC TEST",
+         "image": "Img/hockey.jpg"
+      }
+   ],
    "Mathematics": [],
    "Computer Science": [],
    "Chemistry": [],
