@@ -80,5 +80,16 @@
          "image": ""
       }
    ],
-   "GESP": []
+   "GESP": [
+      {
+         "file": "books/juypterBooks/NewBookTest/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/NewBookTest.zip",
+         "type": "book",
+         "name": "New Test Book Zack",
+         "descript": "A test book to make sure program still uploading",
+         "author": "Zachary Kelly",
+         "class": "AUCSC TEST",
+         "image": ""
+      }
+   ]
 }
