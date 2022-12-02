@@ -12,7 +12,19 @@
          "image": "Img/hockey.jpg"
       }
    ],
-   "Mathematics": [],
+   "Mathematics": [
+      {
+         "file": "books/juypterBooks/NewTestBook/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/NewTestBook.zip",
+         "html": "",
+         "type": "book",
+         "name": "Test Book",
+         "descript": "Test",
+         "author": "Test",
+         "class": "Test",
+         "image": "Img/hockey2.jpg"
+      }
+   ],
    "Computer Science": [],
    "Chemistry": [],
    "Biological Science": [],
