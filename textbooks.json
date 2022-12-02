@@ -1,30 +1,6 @@
 {
-   "Physics": [
-      {
-         "file": "books/juypterNotebooks/TEST2.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/TEST2.html",
-         "type": "notebook",
-         "name": "Test",
-         "descript": "Test",
-         "author": "Test",
-         "class": "Test",
-         "image": "Img/hockey.jpg"
-      }
-   ],
-   "Mathematics": [
-      {
-         "file": "books/juypterBooks/NewTestBook/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/NewTestBook.zip",
-         "html": "",
-         "type": "book",
-         "name": "Test Book",
-         "descript": "Test",
-         "author": "Test",
-         "class": "Test",
-         "image": "Img/hockey2.jpg"
-      }
-   ],
+   "Physics": [],
+   "Mathematics": [],
    "Computer Science": [],
    "Chemistry": [],
    "Biological Science": [],
