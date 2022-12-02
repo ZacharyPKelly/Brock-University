@@ -1,2 +1,2 @@
 DO NOT REMOVE
-This keeps this folder visable for the bash program.
+This keeps this folder visable for the upload program.
