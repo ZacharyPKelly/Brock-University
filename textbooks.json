@@ -1,6 +1,18 @@
 {
    "Physics": [],
-   "Mathematics": [],
+   "Mathematics": [
+      {
+         "file": "books/juypterNotebooks/TestExample.ipynb",
+         "zip": "",
+         "html": "",
+         "type": "notebook",
+         "name": "Test Example",
+         "descript": "This is a test example of a upload",
+         "author": "Zachary Test Kelly",
+         "class": "AUTEST Example",
+         "image": ""
+      }
+   ],
    "Computer Science": [],
    "Chemistry": [],
    "Biological Science": [],
