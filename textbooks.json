@@ -13,7 +13,19 @@
          "image": ""
       }
    ],
-   "Computer Science": [],
+   "Computer Science": [
+      {
+         "file": "books/juypterBooks/book/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/book.zip",
+         "html": "",
+         "type": "book",
+         "name": "Test Book",
+         "descript": "Test Book upload",
+         "author": "Zachary Test Kelly",
+         "class": "AUTEST",
+         "image": ""
+      }
+   ],
    "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
