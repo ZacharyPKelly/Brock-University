@@ -1,57 +1,9 @@
 {
    "Physics": [],
-   "Mathematics": [
-      {
-         "file": "books/juypterNotebooks/TestExample.ipynb",
-         "zip": "",
-         "html": "",
-         "type": "notebook",
-         "name": "Test Example",
-         "descript": "This is a test example of a upload",
-         "author": "Zachary Test Kelly",
-         "class": "AUTEST Example",
-         "image": ""
-      }
-   ],
-   "Computer Science": [
-      {
-         "file": "books/juypterBooks/book/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/book.zip",
-         "html": "",
-         "type": "book",
-         "name": "Test Book",
-         "descript": "Test Book upload",
-         "author": "Zachary Test Kelly",
-         "class": "AUTEST",
-         "image": ""
-      }
-   ],
-   "Chemistry": [
-      {
-         "file": "books/juypterNotebooks/ZackNew.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/ZackNew.html",
-         "type": "notebook",
-         "name": "Test Notebook!",
-         "descript": "This is a test push from a fresh computer",
-         "author": "Zachary Test Kelly!",
-         "class": "AUTEST!",
-         "image": ""
-      }
-   ],
+   "Mathematics": [],
+   "Computer Science": [],
+   "Chemistry": [],
    "Biological Science": [],
-   "E&E Engineering": [
-      {
-         "file": "books/juypterBooks/zacksBook/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/zacksBook.zip",
-         "html": "",
-         "type": "book",
-         "name": "test",
-         "descript": "test",
-         "author": "test",
-         "class": "test",
-         "image": ""
-      }
-   ],
+   "E&E Engineering": [],
    "GESP": []
 }
