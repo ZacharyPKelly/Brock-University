@@ -40,6 +40,18 @@
       }
    ],
    "Biological Science": [],
-   "E&E Engineering": [],
+   "E&E Engineering": [
+      {
+         "file": "books/juypterBooks/zacksBook/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/zacksBook.zip",
+         "html": "",
+         "type": "book",
+         "name": "test",
+         "descript": "test",
+         "author": "test",
+         "class": "test",
+         "image": ""
+      }
+   ],
    "GESP": []
 }
