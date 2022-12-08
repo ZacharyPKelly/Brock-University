@@ -1,19 +1,7 @@
 {
    "Physics": [],
    "Mathematics": [],
-   "Computer Science": [
-      {
-         "file": "books/juypterNotebooks/PresentationExample.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/PresentationExample.html",
-         "type": "notebook",
-         "name": "Presentation Example",
-         "descript": "A presentation example",
-         "author": "Zachary Kelly",
-         "class": "AUTEST",
-         "image": "Img/PresentationImage.png"
-      }
-   ],
+   "Computer Science": [],
    "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
