@@ -1,7 +1,19 @@
 {
    "Physics": [],
    "Mathematics": [],
-   "Computer Science": [],
+   "Computer Science": [
+      {
+         "file": "books/juypterNotebooks/PresentationExample.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/PresentationExample.html",
+         "type": "notebook",
+         "name": "Presentation Example",
+         "descript": "Test Example",
+         "author": "Zack",
+         "class": "AUTEST",
+         "image": "Img/PresentationImage.png"
+      }
+   ],
    "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
