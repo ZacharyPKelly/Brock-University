@@ -3,7 +3,19 @@
    "Mathematics": [],
    "Computer Science": [],
    "Chemistry": [],
-   "Biological Science": [],
+   "Biological Science": [
+      {
+         "file": "books/juypterBooks/a/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/a.zip",
+         "html": "",
+         "type": "book",
+         "name": "t",
+         "descript": "t",
+         "author": "t",
+         "class": "t",
+         "image": ""
+      }
+   ],
    "E&E Engineering": [],
-   "GESP": [ ]
+   "GESP": []
 }
