@@ -26,7 +26,19 @@
          "image": "Img/PresentationImage.png"
       }
    ],
-   "Chemistry": [],
+   "Chemistry": [
+      {
+         "file": "books/juypterNotebooks/TestForPeter.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TestForPeter.html",
+         "type": "notebook",
+         "name": "Test For Peter",
+         "descript": "This is a test exmaple for peter",
+         "author": "Zachary Kelly",
+         "class": "AUTEST",
+         "image": "Img/sum.svg"
+      }
+   ],
    "Biological Science": [],
    "E&E Engineering": [],
    "GESP": []
