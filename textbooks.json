@@ -1,44 +1,8 @@
 {
-   "Physics": [
-      {
-         "file": "books/juypterNotebooks/TEST3.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/TEST3.html",
-         "type": "notebook",
-         "name": "Test Book",
-         "descript": "Test",
-         "author": "Test",
-         "class": "Test",
-         "image": "Img/sum.svg"
-      }
-   ],
+   "Physics": [],
    "Mathematics": [],
-   "Computer Science": [
-      {
-         "file": "books/juypterNotebooks/PresentationExample.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/PresentationExample.html",
-         "type": "notebook",
-         "name": "Presentation Example",
-         "descript": "Test Example",
-         "author": "Zack",
-         "class": "AUTEST",
-         "image": "Img/PresentationImage.png"
-      }
-   ],
-   "Chemistry": [
-      {
-         "file": "books/juypterNotebooks/TestForPeter.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/TestForPeter.html",
-         "type": "notebook",
-         "name": "Test For Peter",
-         "descript": "This is a test exmaple for peter",
-         "author": "Zachary Kelly",
-         "class": "AUTEST",
-         "image": "Img/sum.svg"
-      }
-   ],
+   "Computer Science": [],
+   "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
    "GESP": []
