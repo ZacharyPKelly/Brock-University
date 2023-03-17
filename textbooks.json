@@ -20,8 +20,8 @@
          "author": "Test 1",
          "class": "Test 1",
          "image": "Img/sum.svg"
-       },
-       {
+      },
+      {
          "file": "books/juypterNotebooks/TEST3.ipynb",
          "zip": "",
          "html": "books/jupyterHTML/TEST3.html",
@@ -31,7 +31,7 @@
          "author": "Test 2",
          "class": "Test 2",
          "image": "Img/sum2.svg"
-       }
+      }
    ],
    "Mathematics": [],
    "Computer Science": [],
