@@ -1,6 +1,16 @@
 {
    "Physics": [
       {
+         "file": "books/juypterNotebooks/TEST1.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TEST1.html",
+         "type": "notebook",
+         "name": "1",
+         "descript": "Test 3",
+         "author": "Test 3",
+         "class": "Test 3",
+         "image": ""
+      },
          "file": "books/juypterNotebooks/TEST2.ipynb",
          "zip": "",
          "html": "books/jupyterHTML/TEST2.html",
