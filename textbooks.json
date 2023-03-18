@@ -21,6 +21,17 @@
          "author": "Test 2",
          "class": "Test 2",
          "image": "Img/sum2.svg"
+      },
+      {
+         "file": "books/juypterNotebooks/TEST4.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TEST4.html",
+         "type": "notebook",
+         "name": "Test 4",
+         "descript": "Test 4",
+         "author": "Test 4",
+         "class": "Test 4",
+         "image": ""
       }
    ],
    "Mathematics": [],
