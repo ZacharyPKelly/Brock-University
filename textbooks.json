@@ -1,5 +1,17 @@
 {
-   "Physics": [],
+   "Physics": [
+      {
+         "file": "books/juypterNotebooks/TEST1.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TEST1.html",
+         "type": "notebook",
+         "name": "Test 1",
+         "descript": "Test 1",
+         "author": "Test 1",
+         "class": "Test 1",
+         "image": ""
+      }
+   ],
    "Mathematics": [],
    "Computer Science": [],
    "Chemistry": [],
