@@ -21,6 +21,17 @@
          "author": "Test 2",
          "class": "Test 2",
          "image": ""
+      },
+      {
+         "file": "books/juypterNotebooks/TEST3.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TEST3.html",
+         "type": "notebook",
+         "name": "Test 3",
+         "descript": "Test 3",
+         "author": "Test 3",
+         "class": "Test 3",
+         "image": ""
       }
    ],
    "Mathematics": [],
