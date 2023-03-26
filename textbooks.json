@@ -10,6 +10,17 @@
          "author": "Test1",
          "class": "Test1",
          "image": ""
+      },
+      {
+         "file": "books/juypterNotebooks/TEST2.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TEST2.html",
+         "type": "notebook",
+         "name": "Test2",
+         "descript": "Test2",
+         "author": "Test2",
+         "class": "Test2",
+         "image": ""
       }
    ],
    "Mathematics": [],
