@@ -32,6 +32,17 @@
          "author": "Test1",
          "class": "Test1",
          "image": "Img/sum.svg"
+      },
+      {
+         "file": "books/juypterBooks/TestBook/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/TestBook.zip",
+         "html": "",
+         "type": "book",
+         "name": "Test Book",
+         "descript": "Test Book",
+         "author": "Test Book",
+         "class": "Test Book",
+         "image": ""
       }
    ],
    "Mathematics": [],
