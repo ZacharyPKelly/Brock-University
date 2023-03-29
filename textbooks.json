@@ -46,7 +46,19 @@
       }
    ],
    "Mathematics": [],
-   "Computer Science": [],
+   "Computer Science": [
+      {
+         "file": "books/juypterBooks/ZackBook/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/ZackBook.zip",
+         "html": "",
+         "type": "book",
+         "name": "Zack Test",
+         "descript": "Zack Test",
+         "author": "Zack Test",
+         "class": "Zack Test",
+         "image": ""
+      }
+   ],
    "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
