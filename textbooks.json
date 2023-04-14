@@ -13,6 +13,17 @@
          "author": "Test",
          "class": "Test",
          "image": "Img/sum.svg"
+      },
+      {
+         "file": "books/juypterNotebooks/TEST1.ipynb",
+         "zip": "",
+         "html": "books/jupyterHTML/TEST1.html",
+         "type": "notebook",
+         "name": "Test 2",
+         "descript": "Test 2",
+         "author": "Test 2",
+         "class": "Test 2",
+         "image": ""
       }
    ],
    "Biological Science": [],
