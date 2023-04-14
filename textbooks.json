@@ -1,7 +1,19 @@
 {
    "Physics": [],
    "Mathematics": [],
-   "Computer Science": [],
+   "Computer Science": [
+      {
+         "file": "books/juypterBooks/F/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/F.zip",
+         "html": "",
+         "type": "book",
+         "name": "Test Book",
+         "descript": "Test Book",
+         "author": "Test Book",
+         "class": "Test Book",
+         "image": ""
+      }
+   ],
    "Chemistry": [
       {
          "file": "books/juypterNotebooks/TEST3.ipynb",
