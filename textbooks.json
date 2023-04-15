@@ -1,54 +1,8 @@
 {
    "Physics": [],
    "Mathematics": [],
-   "Computer Science": [
-      {
-         "file": "books/juypterBooks/F/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/F.zip",
-         "html": "",
-         "type": "book",
-         "name": "Test Book",
-         "descript": "Test Book",
-         "author": "Test Book",
-         "class": "Test Book",
-         "image": ""
-      }
-   ],
-   "Chemistry": [
-      {
-         "file": "books/juypterNotebooks/TEST3.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/TEST3.html",
-         "type": "notebook",
-         "name": "Test",
-         "descript": "Test",
-         "author": "Test",
-         "class": "Test",
-         "image": "Img/sum.svg"
-      },
-      {
-         "file": "books/juypterNotebooks/TEST1.ipynb",
-         "zip": "",
-         "html": "books/jupyterHTML/TEST1.html",
-         "type": "notebook",
-         "name": "Test 2",
-         "descript": "Test 2",
-         "author": "Test 2",
-         "class": "Test 2",
-         "image": ""
-      },
-      {
-         "file": "books/juypterBooks/TestBook/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/TestBook.zip",
-         "html": "",
-         "type": "book",
-         "name": "Test Book",
-         "descript": "Test Book",
-         "author": "Test Book",
-         "class": "Test Book",
-         "image": ""
-      }
-   ],
+   "Computer Science": [],
+   "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
    "GESP": []
