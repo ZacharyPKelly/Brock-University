@@ -2,7 +2,19 @@
    "Physics": [],
    "Mathematics": [],
    "Computer Science": [],
-   "Chemistry": [],
+   "Chemistry": [
+      {
+         "file": "books/juypterBooks/NewBook/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/NewBook.zip",
+         "html": "",
+         "type": "book",
+         "name": "Test Book",
+         "descript": "Test Book",
+         "author": "Test Book",
+         "class": "Test Book",
+         "image": ""
+      }
+   ],
    "Biological Science": [],
    "E&E Engineering": [],
    "GESP": []
