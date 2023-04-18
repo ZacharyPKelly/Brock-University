@@ -5,7 +5,7 @@
       {
          "file": "books/juypterNotebooks/Test.ipynb",
          "zip": "",
-         "html": "books/jupyterHTML/Test.html",
+         "html": "books/jupyterNotebookHTML/Test.html",
          "type": "notebook",
          "name": "Test",
          "descript": "Test",
