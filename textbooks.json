@@ -12,6 +12,17 @@
          "author": "Test",
          "class": "Test",
          "image": ""
+      },
+      {
+         "file": "books/juypterBooks/as/_build/html/index.html",
+         "zip": "books/zippedJuypterBooks/as.zip",
+         "html": "",
+         "type": "book",
+         "name": "Test Book",
+         "descript": "Test Book",
+         "author": "Test Book",
+         "class": "Test Book",
+         "image": ""
       }
    ],
    "Chemistry": [],
