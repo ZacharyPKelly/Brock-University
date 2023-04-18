@@ -79,7 +79,7 @@
                     {% else %}
                         <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
                     {% endif %} 
-                    <a href="{{ url_for('static', filename= books/jupyterNotebookHTML/{{information[i].html}}) }}" target="_blank">
+                    <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank">
                         <div class="text_container">
                             <h1> {{ information[i].name }} </h1>
                         </div>
