@@ -1,19 +1,7 @@
 {
    "Physics": [],
    "Mathematics": [],
-   "Computer Science": [
-      {
-         "file": "books/juypterNotebooks/PracticumPresentation.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/PracticumPresentation.html",
-         "type": "notebook",
-         "name": "Practicum Test",
-         "descript": "Practicum Test",
-         "author": "Practicum Test",
-         "class": "Practicum Test",
-         "image": "Img/sum.svg"
-      }
-   ],
+   "Computer Science": [],
    "Chemistry": [],
    "Biological Science": [],
    "E&E Engineering": [],
