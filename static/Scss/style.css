@@ -440,6 +440,9 @@
 .text_container h1, .text_container p {
   font-size: 1vw; 
 }
+.text_container:hover{
+  cursor: pointer;
+}
 @media (max-width: 63.9375em) {
   .text_container h1, .text_container p {
     font-size: 0.75rem;
