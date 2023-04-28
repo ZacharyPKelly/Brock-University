@@ -3,7 +3,6 @@ const body = document.querySelector('body')
 const header = document.querySelector(".header")
 const overlay = document.querySelector(".overlay_set")
 const fadeElems = document.querySelectorAll(".has-fade")
-
 const textbookPage = document.querySelectorAll(".subject_card")
 
 burger.addEventListener("click", function () {

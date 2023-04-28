@@ -1,5 +1,17 @@
 {
-   "Physics": [],
+   "Physics": [
+      {
+      "file": "books/juypterNotebooks/TEST3.ipynb",
+      "zip": "",
+      "html": "books/jupyterNotebookHTML/TEST3.html",
+      "type": "notebook",
+      "name": "Practicum Test",
+      "descript": "Practicum Test",
+      "author": "Practicum Test",
+      "class": "Practicum Test",
+      "image": ""
+      }
+   ],
    "Mathematics": [],
    "Computer Science": [],
    "Chemistry": [],
