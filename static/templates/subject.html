@@ -59,11 +59,11 @@
                     {% else %}
                         <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
                     {% endif %} 
-                    <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank">
-                        <div class="text_container">
-                            <h1> {{ information[i].name }} </h1>
-                        </div>
-                    </a>
+                    <!-- <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank"> -->
+                    <div class="text_container" id="{{ shortcut }}">
+                        <h1> {{ information[i].name }} </h1>
+                    </div>
+                    <!--</a>-->
                     <a href="{{ url_for('static', filename= information[i].zip) }}" target="_blank">
                         <div class="download" >
                             <h1>DOWNLOAD</h1>
@@ -100,7 +100,7 @@
     <script src="{{ url_for('static', filename='js/search.js') }}"></script>
     <script>
 
-        const information = document.querySelectorAll(".information")
+        const information = document.querySelectorAll(".text_container")
 
         information.forEach(function (infoButton, index) {
             infoButton.addEventListener("click", function () {
