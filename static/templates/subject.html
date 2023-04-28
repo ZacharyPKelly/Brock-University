@@ -60,9 +60,9 @@
                         <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
                     {% endif %} 
                     <!-- <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank"> -->
-                    <div class="text_container" id="{{ shortcut }}">
-                        <h1> {{ information[i].name }} </h1>
-                    </div>
+                        <div class="text_container" id="{{ shortcut }}">
+                            <h1> {{ information[i].name }} </h1>
+                        </div>
                     <!--</a>-->
                     <a href="{{ url_for('static', filename= information[i].zip) }}" target="_blank">
                         <div class="download" >
@@ -79,11 +79,11 @@
                     {% else %}
                         <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
                     {% endif %} 
-                    <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank">
-                        <div class="text_container">
+                    <!--<a href="{{ url_for('static', filename= information[i].html) }}" target="_blank">-->
+                        <div class="text_container" id="{{ shortcut }}">
                             <h1> {{ information[i].name }} </h1>
                         </div>
-                    </a>
+                    <!--</a>-->
                     <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank">
                         <div class="download" >
                             <h1>DOWNLOAD</h1>
