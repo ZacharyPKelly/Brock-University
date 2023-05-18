@@ -55,23 +55,163 @@
             <div class="book_card" id="{{ i }}">    
                 {% if information[i].type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
                     {% if information[i].image == '' %} <!--If there is no image applies the eswatini logo as the image-->
-                        <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
-                    {% else %}
-                        <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
-                    {% endif %}
-                        <div class="text_container" id="{{ shortcut }}">
-                            <h1> {{ information[i].name }} </h1>
+                        <div class="dropdown" style="float:right">
+                            <button class="dropbtn"></button>
+                            <div class="dropdown-content">
+                                <h4>Download</h4>
+
+                                {% if information[i].zip == '' %}
+                                    <a style="pointer-events: none;"><s>.zip</s></a>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].zip) }}" target="_blank" download>.zip</a>
+                                {% endif %}
+
+                                <!-- {% if information[i].html == '' %}
+                                    <a style="pointer-events: none;"><s>HTML</s></a>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank" download>HTML</a>
+                                {% endif %} -->
+
+                                {% if information[i].pdf == '' %}
+                                    <a style="pointer-events: none;"><s>PDF</s></a>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].pdf) }}" target="_blank" download>PDF</a>
+                                {% endif %}
+                                
+                            </div>
                         </div>
+                        <div class="image">
+                            <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+                        </div>
+                        {% if information[i].name == '' %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1>Untitled</h1>
+                            </div>
+                        {% else %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1> {{ information[i].name }} </h1>
+                            </div>
+                        {% endif %}
+                    {% else %}
+                        <div class="dropdown" style="float:right">
+                            <button class="dropbtn"></button>
+                            <div class="dropdown-content">
+                                <h4>Download</h4>
+
+                                {% if information[i].zip == '' %}
+                                    <a style="pointer-events: none;"><s>.zip</s></a>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].zip) }}" target="_blank" download>.zip</a>
+                                {% endif %}
+
+                                <!-- {% if information[i].html == '' %}
+                                    <a style="pointer-events: none;"><s>HTML</s></a>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank" download>HTML</a>
+                                {% endif %} -->
+
+                                {% if information[i].pdf == '' %}
+                                    <a style="pointer-events: none;"><s>PDF</s></a>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].pdf) }}" target="_blank" download>PDF</a>
+                                {% endif %}
+                                                         
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
+                        </div>
+                        {% if information[i].name == '' %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1>Untitled</h1>
+                            </div>
+                        {% else %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1> {{ information[i].name }} </h1>
+                            </div>
+                        {% endif %}
+                    {% endif %}
                 {% endif %}
                 {% if information[i].type == 'notebook' %}
                     {% if information[i].image == '' %}
-                        <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
-                    {% else %}
-                        <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
-                    {% endif %}
-                        <div class="text_container" id="{{ shortcut }}">
-                            <h1> {{ information[i].name }} </h1>
+                        <div class="dropdown" style="float:right">
+                            <button class="dropbtn"></button>
+                            <div class="dropdown-content">
+                                <h4>Download</h4>
+
+                                {% if information[i].file == '' %}
+                                    <p><s>.ipynb</s></p>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank" download>.ipynb</a>
+                                {% endif %}
+
+                                {% if information[i].html == '' %}
+                                    <p><s>HTML</s></p>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank" download>HTML</a>
+                                {% endif %}
+
+                                {% if information[i].pdf == '' %}
+                                    <p><s>PDF</s></p>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].pdf) }}" target="_blank" download>PDF</a>
+                                {% endif %}
+                                
+                                
+                            </div>
                         </div>
+                        <div class="image">
+                            <img src="{{ url_for('static', filename='Img/logo.svg') }}" alt="logo">
+                        </div>
+                        {% if information[i].name == '' %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1>Untitled</h1>
+                            </div>
+                        {% else %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1> {{ information[i].name }} </h1>
+                            </div>
+                        {% endif %}
+                    {% else %}
+                        <div class="dropdown" style="float:right">
+                            <button class="dropbtn"></button>
+                            <div class="dropdown-content">
+                                <h4>Download</h4>
+
+                                {% if information[i].file == '' %}
+                                    <p><s>.ipynb</s></p>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank" download>.ipynb</a>
+                                {% endif %}
+
+                                {% if information[i].html == '' %}
+                                    <p><s>HTML</s></p>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank" download>HTML</a>
+                                {% endif %}
+
+                                {% if information[i].pdf == '' %}
+                                    <p><s>PDF</s></p>
+                                {% else %}
+                                    <a href="{{ url_for('static', filename= information[i].pdf) }}" target="_blank" download>PDF</a>
+                                {% endif %}
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="image">
+                            <img src="{{ url_for('static', filename= information[i].image) }}" alt="logo">
+                        </div>
+                        {% if information[i].name == '' %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1>Untitled</h1>
+                            </div>
+                        {% else %}
+                            <div class="text_container" id="{{ shortcut }}">
+                                <h1> {{ information[i].name }} </h1>
+                            </div>
+                        {% endif %}
+                    {% endif %}
                 {% endif %}
             </div>
         {% endfor %}
@@ -88,15 +228,61 @@
                 let book = index
                 let link = "/book/" + subject + "/" + book
                 window.open(link, "_self")
-            })
-        })
+            });
+        });
+
+    </script>
+    <script>
+
+        const dropDownButtons = document.querySelectorAll(".dropbtn");
+        const dropDownContent = document.querySelectorAll(".dropdown-content");
+
+        function handleDropdownClick(event) {
+
+            const main = event.target;
+            const className = "show";
+            let myContent = null;
+
+            dropDownContent.forEach( elem => {
+
+                if(main.parentNode.contains(elem)) {
+
+                    myContent = elem;
+
+                }
+                else{
+
+                    elem.classList.remove(className)
+
+                }
+            });
+
+            if (myContent) myContent.classList.toggle(className);
+
+        }
+
+        dropDownButtons.forEach(elem => elem.addEventListener("click", handleDropdownClick));
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
 
     </script>
 
 </body>
 
 <footer>
-    <h3>&#169; University Of Alberta - Augustana Campus</h3>
+    <h3>&#169; University of Alberta - Augustana Campus</h3>
 </footer>
 
 </html>

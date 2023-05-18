@@ -6,8 +6,8 @@ Created By Joseph Menezes
 Modified by Zachary Kelly
 """
 import json
-
-from flask import Flask, render_template
+from notebooktoall.transform import transform_notebook
+from flask import Flask, render_template, request
 
 app = Flask(__name__, template_folder="static/templates")
 
@@ -109,11 +109,16 @@ def openBook(subject, book):
 
     elif 'gesp' in subject:
         information = txtBooks['GESP']
+        print("Hello there")
         return render_template("book.html", information=information[book], subject="GESP", shortcut='gesp')
 
 @app.route("/health")
 def health():
     return ""
+
+@app.route("/book/handle_HTML/<html>")
+def handle_HTML(html):
+    return("HANDLE HTML: " + html)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
