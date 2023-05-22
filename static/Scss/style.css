@@ -286,7 +286,6 @@
 }
 .description_container_text p{
   text-align: justify;
-  text-indent: 5%;
   color: #020202;
   padding-left: 5%;
   padding-right: 5%;
@@ -494,7 +493,7 @@
   right: 0;
   width: 80%;
   height: 65%;
-  object-fit: contain;
+  object-fit: fill;
   overflow: hidden;
 }
 .image img{
