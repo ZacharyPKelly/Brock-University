@@ -18,7 +18,7 @@
          "html": "books/jupyterNotebookHTML/Jupyter-Lab-and-Book-Installation-Guide.html",
          "pdf": "books/jupyterNotebookPDF/Jupyter-Lab-and-Book-Installation-Guide.pdf",
          "type": "notebook",
-         "name": "Jupyter Lab and Book Installation Guideaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+         "name": "Jupyter Lab and Book Installation Guide",
          "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
          "author": "Zachary Kelly",
          "class": "Jupyter Notebook and Book Installation",
