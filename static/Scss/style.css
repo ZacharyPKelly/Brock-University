@@ -458,13 +458,14 @@
   right: 7%;
   left: 7%;
   height: 10%;  
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  
   border-top: 3px solid #8b8b8bec;
 }
 .text_container h1, .text_container p {
   font-size: 1rem; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .text_container:hover{
   cursor: pointer;
