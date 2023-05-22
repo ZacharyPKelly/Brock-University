@@ -46,7 +46,19 @@
          "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
          "author": "Microsoft",
          "class": "Artificial Intelligence",
-         "image": "IMG/ai-overview.svg"
+         "image": "Img/ai-overview.png"
+      },
+      {
+         "file": "books/juypterNotebooks/Perceptron.ipynb",
+         "zip": "",
+         "html": "books/jupyterNotebookHTML/Perceptron.html",
+         "pdf": "books/jupyterNotebookPDF/Perceptron.pdf",
+         "type": "notebook",
+         "name": "AI For Beginners - Perceptron",
+         "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
+         "author": "Microsoft",
+         "class": "Artificial Intelligence",
+         "image": "Img/ai-overview.svg"
       },
       {
          "file": "books/juypterBooks/Jupyter-Book-Example/_build/html/index.html",
@@ -520,7 +532,7 @@
          "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
          "author": "Microsoft",
          "class": "Artificial Intelligence",
-         "image": "IMG/ai-overview.svg"
+         "image": "Img/ai-overview.svg"
       },
       {
          "file": "books/juypterBooks/Jupyter-Book-Example/_build/html/index.html",
