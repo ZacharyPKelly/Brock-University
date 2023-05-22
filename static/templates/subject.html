@@ -55,7 +55,7 @@
             <div class="book_card" id="{{ i }}">    
                 {% if information[i].type == 'book' %} <!--Links for books and notebooks are different so a distinction is needed-->
                     {% if information[i].image == '' %} <!--If there is no image applies the eswatini logo as the image-->
-                        <div class="dropdown" style="float:right">
+                        <div class="dropdown">
                             <button class="dropbtn"></button>
                             <div class="dropdown-content">
                                 <h4>Download</h4>
@@ -87,7 +87,7 @@
                             </div>
                         {% endif %}
                     {% else %}
-                        <div class="dropdown" style="float:right">
+                        <div class="dropdown">
                             <button class="dropbtn"></button>
                             <div class="dropdown-content">
                                 <h4>Download</h4>
@@ -122,25 +122,25 @@
                 {% endif %}
                 {% if information[i].type == 'notebook' %}
                     {% if information[i].image == '' %}
-                        <div class="dropdown" style="float:right">
+                        <div class="dropdown">
                             <button class="dropbtn"></button>
                             <div class="dropdown-content">
                                 <h4>Download</h4>
 
                                 {% if information[i].file == '' %}
-                                    <p><s>.ipynb</s></p>
+                                    <a style="pointer-events: none;"><s>.ipynb</s></a>
                                 {% else %}
                                     <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank" download>.ipynb</a>
                                 {% endif %}
 
                                 {% if information[i].html == '' %}
-                                    <p><s>HTML</s></p>
+                                    <a style="pointer-events: none;"><s>HTML</s></a>
                                 {% else %}
                                     <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank" download>HTML</a>
                                 {% endif %}
 
                                 {% if information[i].pdf == '' %}
-                                    <p><s>PDF</s></p>
+                                    <a style="pointer-events: none;"><s>PDF</s></a>
                                 {% else %}
                                     <a href="{{ url_for('static', filename= information[i].pdf) }}" target="_blank" download>PDF</a>
                                 {% endif %}
@@ -161,25 +161,25 @@
                             </div>
                         {% endif %}
                     {% else %}
-                        <div class="dropdown" style="float:right">
+                        <div class="dropdown">
                             <button class="dropbtn"></button>
                             <div class="dropdown-content">
                                 <h4>Download</h4>
 
                                 {% if information[i].file == '' %}
-                                    <p><s>.ipynb</s></p>
+                                    <a style="pointer-events: none;"><s>.ipynb</s></a>
                                 {% else %}
                                     <a href="{{ url_for('static', filename= information[i].file) }}" target="_blank" download>.ipynb</a>
                                 {% endif %}
 
                                 {% if information[i].html == '' %}
-                                    <p><s>HTML</s></p>
+                                    <a style="pointer-events: none;"><s>HTML</s></a>
                                 {% else %}
                                     <a href="{{ url_for('static', filename= information[i].html) }}" target="_blank" download>HTML</a>
                                 {% endif %}
 
                                 {% if information[i].pdf == '' %}
-                                    <p><s>PDF</s></p>
+                                    <a style="pointer-events: none;"><s>PDF</s></a>
                                 {% else %}
                                     <a href="{{ url_for('static', filename= information[i].pdf) }}" target="_blank" download>PDF</a>
                                 {% endif %}

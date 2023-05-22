@@ -455,11 +455,10 @@
 .text_container {
   position: absolute;
   bottom: 1rem;
-  padding: 0.25rem;
-  margin: 0 0 0.25rem;
-  width: calc(85%);
+  width: calc(86%);
+  right: 7%;
+  left: 7%;
   height: 10%;  
-  display: inline-block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -896,10 +895,11 @@ footer h3 {
   position: absolute;
   display: inline-block;
   top: 1.5rem;
-  right: 1.5rem;
+  right: 7%;
+  left: 7%;
   border-bottom: 3px solid #8b8b8bec;
   height: 10%;
-  width: calc(85%);
+  width: calc(86%);
 }
 .dropdown-content {
   display: none;
@@ -1000,10 +1000,7 @@ footer h3 {
 .grid_container{
   display: grid;
   grid-template-columns: 20% auto 20%;
-  /* grid-template-rows: 10% 30% 30% 30%; */
-  background-color: #ffeaea;
-  /* max-height: 70vh; */
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px 10px 10px;
 }
 .grid_go_back {
   background-color: rgba(255, 255, 255, 0.8);
@@ -1016,9 +1013,9 @@ footer h3 {
   grid-row-start: 2;
   grid-row-end: 3;
   border-width: 0px 0px 2px 5px;
-  border-color: rgba(0, 0, 0, 0.8);
+  border-color: #545454;
   border-bottom-color: #969393;
-  border-style: none none solid groove;
+  border-style: none none solid double;
 }
 .grid_go_back h3 {
   margin-top: 0px;
@@ -1037,9 +1034,9 @@ footer h3 {
   grid-row-start: 1;
   grid-row-end: 2;
   border-width: 5px 5px 2px 5px;
-  border-color: rgba(0, 0, 0, 0.8);
+  border-color: #545454;
   border-bottom-color: #969393;
-  border-style: groove groove solid groove;
+  border-style: double double solid double;
 }
 .grid_title h1 {
   text-align: center;
@@ -1057,9 +1054,9 @@ footer h3 {
   grid-row-start: 3;
   grid-row-end: 4;
   border-width: 0px 0px 2px 5px;
-  border-color: rgba(0, 0, 0, 0.8);
+  border-color: #545454;
   border-bottom-color: #969393;
-  border-style: none none solid groove;
+  border-style: none none solid double;
 }
 .grid_view_book h3 {
   margin-top: 0px;
@@ -1078,8 +1075,8 @@ footer h3 {
   grid-row-start: 4;
   grid-row-end: 5;
   border-width: 0px 0px 5px 5px;
-  border-color: rgba(0, 0, 0, 0.8);
-  border-style: none none groove groove;
+  border-color: #545454;
+  border-style: none none double double;
 }
 .grid_info h3 {
   margin-top: 0px;
@@ -1110,9 +1107,9 @@ footer h3 {
   grid-row-start: 2;
   grid-row-end: 3;
   border-width: 0px 5px 2px 0px;
-  border-color: rgba(0, 0, 0, 0.8);
+  border-color: #545454;
   border-bottom-color: #969393;
-  border-style: none groove solid none;
+  border-style: none double solid none;
 }
 .grid_download_notebook h3 {
   margin-top: 0px;
@@ -1132,10 +1129,10 @@ footer h3 {
   grid-row-end: 5;
   overflow: hidden;
   border-width: 0px 2px 5px 2px;
-  border-color: rgba(0, 0, 0, 0.8);
+  border-color: #545454;
   border-right-color: #969393;
   border-left-color: #969393;
-  border-style: none solid groove solid;
+  border-style: none solid double solid;
 }
 .grid_description h3 {
   margin-top: 0px;
@@ -1155,9 +1152,9 @@ footer h3 {
   grid-row-start: 3;
   grid-row-end: 4;
   border-width: 0px 5px 2px 0px;
-  border-color: rgba(0, 0, 0, 0.8);
+  border-color: #545454;
   border-bottom-color: #969393;
-  border-style: none groove solid none;
+  border-style: none double solid none;
 }
 .grid_download_pdf h3 {
   margin-top: 0px;
@@ -1177,8 +1174,8 @@ footer h3 {
   grid-row-start: 4;
   grid-row-end: 5;
   border-width: 0px 5px 5px 0px;
-  border-color: rgba(0, 0, 0, 0.8);
-  border-style: none groove groove none;
+  border-color: #545454;
+  border-style: none double double none;
 }
 .grid_download_html h3 {
   margin-top: 0px;
@@ -1227,9 +1224,9 @@ footer h3 {
     grid-row-start: 1;
     grid-row-end: 2;
     border-width: 5px 5px 2px 5px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-bottom-color: #969393;
-    border-style: groove groove solid groove;
+    border-style: double double solid double;
   }
   .grid_title h1 {
     text-align: center;
@@ -1248,9 +1245,9 @@ footer h3 {
     grid-row-start: 4;
     grid-row-end: 5;
     border-width: 0px 0px 2px 5px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-bottom-color: #969393;
-    border-style: none none solid groove;
+    border-style: none none solid double;
   }
   .grid_view_book h3 {
     margin-top: 0px;
@@ -1270,9 +1267,9 @@ footer h3 {
     grid-row-start: 2;
     grid-row-end: 3;
     border-width: 0px 5px 2px 5px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-bottom-color: #969393;
-    border-style: none groove solid groove;
+    border-style: none double solid double;
   }
   .grid_info h3 {
     margin-top: 0px;
@@ -1303,10 +1300,10 @@ footer h3 {
     grid-row-start: 4;
     grid-row-end: 5;
     border-width: 0px 5px 2px 2px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-left-color: #969393;
     border-bottom-color: #969393;
-    border-style: none groove solid solid;
+    border-style: none double solid solid;
   }
   .grid_download_notebook h3 {
     margin-top: 0px;
@@ -1327,9 +1324,9 @@ footer h3 {
     grid-row-end: 4;
     overflow: hidden;
     border-width: 0px 5px 2px 5px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-bottom-color: #969393;
-    border-style: none groove solid groove;
+    border-style: none double solid double;
   }
   .grid_description h3 {
     margin-top: 0px;
@@ -1350,9 +1347,9 @@ footer h3 {
     grid-row-start: 5;
     grid-row-end: 6;
     border-width: 0px 2px 5px 5px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-right-color: #969393;
-    border-style: none none groove groove;
+    border-style: none none double double;
   }
   .grid_download_pdf h3 {
     margin-top: 0px;
@@ -1372,9 +1369,9 @@ footer h3 {
     grid-row-start: 5;
     grid-row-end: 6;
     border-width: 0px 5px 5px 2px;
-    border-color: rgba(0, 0, 0, 0.8);
+    border-color: #545454;
     border-left-color: #969393;
-    border-style: none groove groove solid;
+    border-style: none double double solid;
   }
   .grid_download_html h3 {
     margin-top: 0px;
