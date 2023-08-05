@@ -1,168 +1,313 @@
 {
-   "Physics": [
-      {
-         "file": "books/juypterNotebooks/XKCD_plots.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/XKCD_plots.html",
-         "pdf": "books/jupyterNotebookPDF/XKCD_plots.pdf",
-         "type": "notebook",
-         "name": "XKCD Plots",
-         "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
-         "author": "Randall Munroe",
-         "class": "",
-         "image": "Img/xkcd.svg"
-      },
-      {
-         "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/Jupyter-Lab-and-Book-Installation-Guide.html",
-         "pdf": "books/jupyterNotebookPDF/Jupyter-Lab-and-Book-Installation-Guide.pdf",
-         "type": "notebook",
-         "name": "Jupyter Lab and Book Installation Guide",
-         "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
-         "author": "Zachary Kelly",
-         "class": "Jupyter Notebook and Book Installation",
-         "image": "Img/JupyterImage.png"
-      },
-      {
-         "file": "books/juypterNotebooks/Probabilistic_Programming.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/Probabilistic_Programming.html",
-         "pdf": "books/jupyterNotebookPDF/Probabilistic_Programming.pdf",
-         "type": "notebook",
-         "name": "Probabilistic Programming",
-         "descript": "",
-         "author": "Cam Davidson-Pilon",
-         "class": "Probabilistic Programming",
-         "image": ""
-      },
-      {
-         "file": "books/juypterNotebooks/Perceptron.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/Perceptron.html",
-         "pdf": "books/jupyterNotebookPDF/Perceptron.pdf",
-         "type": "notebook",
-         "name": "AI For Beginners - Perceptron",
-         "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
-         "author": "Microsoft",
-         "class": "Artificial Intelligence",
-         "image": "Img/ai-overview.png"
-      },
-      {
-         "file": "books/juypterNotebooks/Perceptron.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/Perceptron.html",
-         "pdf": "books/jupyterNotebookPDF/Perceptron.pdf",
-         "type": "notebook",
-         "name": "AI For Beginners - Perceptron",
-         "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
-         "author": "Microsoft",
-         "class": "Artificial Intelligence",
-         "image": "Img/ai-overview.svg"
-      },
-      {
-         "file": "books/juypterBooks/Jupyter-Book-Example/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/Jupyter-Book-Example.zip",
-         "html": "",
-         "pdf": "books/jupyterBookPDF/Jupyter-Book-Example.pdf",
-         "type": "book",
-         "name": "Jupyter Book Example",
-         "descript": "Small example of a Jupyter Book",
-         "author": "Zachary Kelly",
-         "class": "Jupyter Book Example",
-         "image": ""
-      }
-   ],
-   "Mathematics": [],
-   "Computer Science": [
-      {
-         "file": "books/juypterNotebooks/Perceptron.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/Perceptron.html",
-         "pdf": "books/jupyterNotebookPDF/Perceptron.pdf",
-         "type": "notebook",
-         "name": "AI For Beginners - Perceptron",
-         "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
-         "author": "Microsoft",
-         "class": "Artificial Intelligence",
-         "image": "Img/ai-overview.svg"
-      },
-      {
-         "file": "books/juypterNotebooks/Perceptron.ipynb",
-         "zip": "",
-         "html": "books/jupyterNotebookHTML/Perceptron.html",
-         "pdf": "books/jupyterNotebookPDF/Perceptron.pdf",
-         "type": "notebook",
-         "name": "AI For Beginners - Perceptron",
-         "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
-         "author": "Microsoft",
-         "class": "Artificial Intelligence",
-         "image": "Img/ai-overview.png"
-      }
-   ],
-   "Chemistry": [
-      {
-         "file": "books/juypterNotebooks/XKCD_plots.ipynb",
-         "zip": "",
-         "html": "",
-         "pdf": "",
-         "type": "notebook",
-         "name": "XKCD Plots",
-         "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
-         "author": "Randall Munroe",
-         "class": "",
-         "image": "Img/xkcd.svg"
-      },
-      {
-         "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
-         "zip": "",
-         "html": "",
-         "pdf": "",
-         "type": "notebook",
-         "name": "Jupyter Lab and Book Installation Guide",
-         "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
-         "author": "Zachary Kelly",
-         "class": "Jupyter Notebook and Book Installation",
-         "image": "Img/JupyterImage.png"
-      },
-      {
-         "file": "books/juypterNotebooks/Probabilistic_Programming.ipynb",
-         "zip": "",
-         "html": "",
-         "pdf": "",
-         "type": "notebook",
-         "name": "Probabilistic Programming",
-         "descript": "",
-         "author": "Cam Davidson-Pilon",
-         "class": "Probabilistic Programming",
-         "image": ""
-      },
-      {
-         "file": "books/juypterNotebooks/Perceptron.ipynb",
-         "zip": "",
-         "html": "",
-         "pdf": "",
-         "type": "notebook",
-         "name": "AI For Beginners - Perceptron",
-         "descript": "This notebook is a part of AI for Beginners Curricula. Visit the repository link found in the Notebook for complete set of learning materials.",
-         "author": "Microsoft",
-         "class": "Artificial Intelligence",
-         "image": "Img/ai-overview.svg"
-      },
-      {
-         "file": "books/juypterBooks/Jupyter-Book-Example/_build/html/index.html",
-         "zip": "books/zippedJuypterBooks/Jupyter-Book-Example.zip",
-         "html": "",
-         "pdf": "",
-         "type": "book",
-         "name": "Jupyter Book Example",
-         "descript": "Small example of a Jupyter Book",
-         "author": "Zachary Kelly",
-         "class": "Jupyter Book Example",
-         "image": ""
-      }
-   ],
-   "Biological Science": [],
-   "E&E Engineering": [],
-   "GESP": []
+   "Biological Science": {
+      "AUBIO 111":[
+         {
+            "file": "books/juypterNotebooks/pythonLists.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonLists.html",
+            "pdf": "books/jupyterNotebookPDF/pythonLists.pdf",
+            "type": "notebook",
+            "name": "Python Lists",
+            "descript": "A in-depth guide to understanding and working with Python lists.",
+            "author": "Geeks for Geeks",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "AUBIO 112":[
+         {
+            "file": "books/juypterNotebooks/pythonAssignment.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonAssignment.html",
+            "pdf": "books/jupyterNotebookPDF/pythonAssignment.pdf",
+            "type": "notebook",
+            "name": "Beginner Python Questions",
+            "descript": "A short assignment with an array of already solved Python questions.",
+            "author": "Zachary Kelly",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "AUBIO 253":[
+         {
+            "file": "books/juypterNotebooks/XKCD_plots.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "XKCD Plots",
+            "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
+            "author": "Randall Munroe",
+            "class": "",
+            "image": "Img/xkcd.svg"
+         }
+      ],
+      "AUBIO 260":[
+         {
+            "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "Jupyter Lab and Book Installation Guide",
+            "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
+            "author": "Zachary Kelly",
+            "class": "Jupyter Notebook and Book Installation",
+            "image": "Img/JupyterImage.png"
+         }
+      ]
+   },
+   "Chemistry": {
+      "AUCHE 111":[
+         {
+            "file": "books/juypterNotebooks/pythonLists.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonLists.html",
+            "pdf": "books/jupyterNotebookPDF/pythonLists.pdf",
+            "type": "notebook",
+            "name": "Python Lists",
+            "descript": "A in-depth guide to understanding and working with Python lists.",
+            "author": "Geeks for Geeks",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "AUCHE 112":[
+         {
+            "file": "books/juypterNotebooks/pythonAssignment.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonAssignment.html",
+            "pdf": "books/jupyterNotebookPDF/pythonAssignment.pdf",
+            "type": "notebook",
+            "name": "Beginner Python Questions",
+            "descript": "A short assignment with an array of already solved Python questions.",
+            "author": "Zachary Kelly",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "AUCHE 213":[
+         {
+            "file": "books/juypterNotebooks/XKCD_plots.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "XKCD Plots",
+            "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
+            "author": "Randall Munroe",
+            "class": "",
+            "image": "Img/xkcd.svg"
+         }
+      ],
+      "AUCHE 214":[
+         {
+            "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "Jupyter Lab and Book Installation Guide",
+            "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
+            "author": "Zachary Kelly",
+            "class": "Jupyter Notebook and Book Installation",
+            "image": "Img/JupyterImage.png"
+         }
+      ],
+      "AUCHE 230":[],
+      "AUCHE 250":[],
+      "AUCHE 252":[],
+      "AUCHE 279":[],
+      "AUCHE 323":[],
+      "AUCHE 324":[],
+      "AUCHE 325":[],
+      "AUCHE 341":[],
+      "AUCHE 450":[]
+   },
+   "Computer Science": {
+         "Python":[
+            {
+               "file": "books/juypterNotebooks/pythonLists.ipynb",
+               "zip": "",
+               "html": "books/jupyterNotebookHTML/pythonLists.html",
+               "pdf": "books/jupyterNotebookPDF/pythonLists.pdf",
+               "type": "notebook",
+               "name": "Python Lists",
+               "descript": "A in-depth guide to understanding and working with Python lists.",
+               "author": "Geeks for Geeks",
+               "class": "",
+               "image": ""
+            },
+            {
+               "file": "books/juypterNotebooks/pythonAssignment.ipynb",
+               "zip": "",
+               "html": "books/jupyterNotebookHTML/pythonAssignment.html",
+               "pdf": "books/jupyterNotebookPDF/pythonAssignment.pdf",
+               "type": "notebook",
+               "name": "Beginner Python Questions",
+               "descript": "A short assignment with an array of already solved Python questions.",
+               "author": "Zachary Kelly",
+               "class": "",
+               "image": ""
+            }
+         ],
+         "Java":[
+            {
+               "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
+               "zip": "",
+               "html": "",
+               "pdf": "",
+               "type": "notebook",
+               "name": "Jupyter Lab and Book Installation Guide",
+               "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
+               "author": "Zachary Kelly",
+               "class": "Jupyter Notebook and Book Installation",
+               "image": "Img/JupyterImage.png"
+            }
+         ],
+         "Javascript":[
+            {
+               "file": "books/juypterNotebooks/XKCD_plots.ipynb",
+               "zip": "",
+               "html": "",
+               "pdf": "",
+               "type": "notebook",
+               "name": "XKCD Plots",
+               "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
+               "author": "Randall Munroe",
+               "class": "",
+               "image": "Img/xkcd.svg"
+            }
+         ],
+         "C/C++/C#":[
+            {
+               "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
+               "zip": "",
+               "html": "",
+               "pdf": "",
+               "type": "notebook",
+               "name": "Jupyter Lab and Book Installation Guide",
+               "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
+               "author": "Zachary Kelly",
+               "class": "Jupyter Notebook and Book Installation",
+               "image": "Img/JupyterImage.png"
+            }
+         ]
+   },
+   "Mathematics": {
+      "Calculus":[
+         {
+            "file": "books/juypterNotebooks/pythonLists.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonLists.html",
+            "pdf": "books/jupyterNotebookPDF/pythonLists.pdf",
+            "type": "notebook",
+            "name": "Python Lists",
+            "descript": "A in-depth guide to understanding and working with Python lists.",
+            "author": "Geeks for Geeks",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "Geometry":[
+         {
+            "file": "books/juypterNotebooks/pythonAssignment.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonAssignment.html",
+            "pdf": "books/jupyterNotebookPDF/pythonAssignment.pdf",
+            "type": "notebook",
+            "name": "Beginner Python Questions",
+            "descript": "A short assignment with an array of already solved Python questions.",
+            "author": "Zachary Kelly",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "Discrete Math":[
+         {
+            "file": "books/juypterNotebooks/XKCD_plots.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "XKCD Plots",
+            "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
+            "author": "Randall Munroe",
+            "class": "",
+            "image": "Img/xkcd.svg"
+         }
+      ],
+      "Trigonometry":[
+         {
+            "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "Jupyter Lab and Book Installation Guide",
+            "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
+            "author": "Zachary Kelly",
+            "class": "Jupyter Notebook and Book Installation",
+            "image": "Img/JupyterImage.png"
+         }
+      ]
+   },
+   "Physics": {
+      "Classical Mechanics":[
+         {
+            "file": "books/juypterNotebooks/pythonLists.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonLists.html",
+            "pdf": "books/jupyterNotebookPDF/pythonLists.pdf",
+            "type": "notebook",
+            "name": "Python Lists",
+            "descript": "A in-depth guide to understanding and working with Python lists.",
+            "author": "Geeks for Geeks",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "Thermodynamics":[
+         {
+            "file": "books/juypterNotebooks/pythonAssignment.ipynb",
+            "zip": "",
+            "html": "books/jupyterNotebookHTML/pythonAssignment.html",
+            "pdf": "books/jupyterNotebookPDF/pythonAssignment.pdf",
+            "type": "notebook",
+            "name": "Beginner Python Questions",
+            "descript": "A short assignment with an array of already solved Python questions.",
+            "author": "Zachary Kelly",
+            "class": "",
+            "image": ""
+         }
+      ],
+      "Electromagnetism":[
+         {
+            "file": "books/juypterNotebooks/XKCD_plots.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "XKCD Plots",
+            "descript": "Written by Randall Munroe, creator of the popular XKCD webcomic, this document outlines the process of 'XKCDifying' graphs output by matplotlib. Sometimes matplotlib output is a bit too 'precise' and needs a bit of character added to it!",
+            "author": "Randall Munroe",
+            "class": "",
+            "image": "Img/xkcd.svg"
+         }
+      ],
+      "Quantum Mechanics":[
+         {
+            "file": "books/juypterNotebooks/Jupyter-Lab-and-Book-Installation-Guide.ipynb",
+            "zip": "",
+            "html": "",
+            "pdf": "",
+            "type": "notebook",
+            "name": "Jupyter Lab and Book Installation Guide",
+            "descript": "This document outlines the process of installing Jupyter Lab and Jupyter Books, as well as any required packages. As well, the process of how to convert Jupyter Books and Notebooks to HTML and PDF will be outlined.",
+            "author": "Zachary Kelly",
+            "class": "Jupyter Notebook and Book Installation",
+            "image": "Img/JupyterImage.png"
+         }
+      ]
+   }
 }

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='Img/favicon-32x32.png') }}">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static',filename='Scss/style.css') }}">
+  <title>Textbook Resources</title>
+
+</head>
+
+<body>
+  <header class="header sticky_pos">
+    <div class="header_container">
+      <div class="overlay_set has-fade" id="overlay">
+      </div>
+      <nav class="flexHeader flexHeader-jc-sb container">
+        <a class="header_logo center_for_mobile" href="/">
+          <img src="{{ url_for('static', filename='Img/BrocksLogoPNG.png') }}" alt="home">
+          <h1 class="hide_for_mobile">Brock University</h1>
+        </a>
+        <a href="#" class="header_toggle hide_for_desktop" id="btnHamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <div class="header_link hide_for_mobile">
+          <a href="/">Home</a><a href="about">About</a><a href="contact">Contact</a><a
+            href="{{ url_for('static', filename = 'books/juypterBooks/MarkdownGuide/_build/html/index.html') }}" target="_blank">Learning Markdown</a>
+        </div>
+      </nav>
+      <div class="header_menu has-fade ">
+        <a href="/">Home</a>
+        <a href="about">About</a>
+        <a href="contact">Contact</a>
+        <a href="{{ url_for('static', filename = 'books/juypterBooks/MarkdownGuide/_build/html/index.html') }}" target="_blank">Learning Markdown</a>
+      </div>
+    </div>
+    <hr class="hide_for_mobile">
+  </header>
+  <div class="title_container reduced_size">
+    <h1>Brock University<br>
+        Mathematics Topics</h1>
+  </div>
+  <!-- Add and remove topics here. -->
+  <div class="subject_container" id="{{ shortcut }}">
+    <div class="subject_card subject_mobile" id="{{shortcut}}/calculus">
+        <p>Calculus</p>
+    </div>
+    <div class="subject_card subject_mobile" id="{{shortcut}}/geometry">
+        <p>Geometry</p>
+    </div>
+    <div class="subject_card subject_mobile" id="{{shortcut}}/discrete">
+        <p>Discrete Math</p>
+    </div>
+    <div class="subject_card subject_mobile" id="{{shortcut}}/trigonometry">
+        <p>Trigonometry</p>
+    </div> 
+  </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+  <script>
+
+    const information = document.querySelectorAll(".subject_card")
+
+    information.forEach(function (subject, subjectName) {
+        subject.addEventListener("click", function () {
+            let topic = subject.id
+            let link = "/book/" + topic
+            window.open(link, "_self")
+        });
+    });
+
+</script>
+</body>
+
+<footer>
+  <h3>&#169; University of Alberta - Augustana Campus</h3>
+
+</footer>
+
+</html>

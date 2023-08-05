@@ -488,18 +488,21 @@
 .image {
   margin: auto;
   position: relative;
-  top: 20%;
+  top: 15%;
   left: 0;
   bottom: 0;
   right: 0;
   width: 80%;
-  height: 65%;
-  object-fit: fill;
+  height: 70%;
+  object-fit: cover;
   overflow: hidden;
 }
 .image img{
   height: 100%;
   width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
 }
 #search-box:hover {
   border-color: rgba(0, 0, 0, 0.2);
@@ -774,6 +777,9 @@ a, a:visited, a:hover {
   font-size: 3vmin;
   font-weight: 700;
   border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .subject_card p {
   color: #8b8b8bec;
@@ -790,6 +796,7 @@ a, a:visited, a:hover {
   .subject_mobile {
     flex: 0 0 80%;
     width: 100%;
+    margin-bottom: 5rem;
     font-size: 1.25rem;
     text-align: center;
   }
